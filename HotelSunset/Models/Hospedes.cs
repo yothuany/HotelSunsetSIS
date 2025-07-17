@@ -8,24 +8,26 @@ namespace HotelSunset.Models
 {
     public class Hospedes
     {
-        private int Id { get; set; }
-        private string NomeCompleto { get; set; }
-        private string CPF { get; set; }
-        private DateTime DataNascimento { get; set; }
-        private string Endereco { get; set; }
+        public int Id { get; set; }
+        public string NomeCompleto { get; set; }
+        public string CPF { get; set; }
+        public DateTime DataNascimento { get; set; }
+        public string Telefone { get; set; }
+        public string Email { get; set; }
 
         public Hospedes()
         {
 
         }
 
-        public Hospedes(int id, string nomeCompleto, string cpf, DateTime dataNascimento, string endereco)
+        public Hospedes(int id, string nomeCompleto, string cpf, DateTime dataNascimento, string telefone, string email)
         {
             Id = id;
             NomeCompleto = nomeCompleto;
             CPF = cpf;
             DataNascimento = dataNascimento;
-            Endereco = endereco;
+            Telefone = Telefone;
+            Email = email;
         }
     }
 }

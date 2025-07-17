@@ -23,5 +23,12 @@ namespace HotelSunset.Views
         {
             InitializeComponent();
         }
+
+        private void btVoltar_Click(object sender, RoutedEventArgs e)
+        {
+            QuartosListar quartosListar = new QuartosListar();
+            quartosListar.Show();
+            this.Close();
+        }
     }
 }

@@ -173,7 +173,7 @@
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
                     <Button Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30"/>
                     <Button Content="Limpar" Style="{StaticResource ClearButton}" Height="30" Width="80"/>
-                    <Button Content="Salvar" Style="{StaticResource SaveButton}" Height="30" Width="80"/>
+                    <Button Content="Salvar" Style="{StaticResource SaveButton}" Height="30" Width="80" Click="Button_Click"/>
                 </StackPanel>
             </StackPanel>
         </Border>
