@@ -150,7 +150,7 @@
                 </Grid>
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
-                    <Button x:Name="btVoltar" Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30"/>
+                    <Button x:Name="btVoltar" Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30" Click="btVoltar_Click"/>
                     <Button x:Name="btLimpar" Content="Limpar" Style="{StaticResource ClearButton}" Height="30" Width="80" Click="btLimpar_Click"/>
                     <Button x:Name="btSalvar" Content="Salvar" Style="{StaticResource SaveButton}" Height="30" Width="80" Click="btSalvar_Click"/>
                 </StackPanel>

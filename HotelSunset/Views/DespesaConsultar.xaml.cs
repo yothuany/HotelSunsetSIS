@@ -115,17 +115,15 @@ namespace HotelSunset.Views
                 SolidColorBrush brush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#27AE60")); // Cor verde para "Salvar"
                 btEditar.Background = brush;
 
-                SetFormEnabledState(true); // Habilita todos os campos para edição
+                SetFormEnabledState(true); 
                 Editou = true;
             }
             else if (btEditar.Content.ToString() == "Salvar")
             {
                 Despesas despesa = new Despesas();
 
-                // Atribui o ID da despesa que está sendo editada
                 despesa.Id = identificadorDespesa;
 
-                // Validação e atribuição dos campos
                 if (dtpData.SelectedDate.HasValue)
                 {
                     despesa.DataDespesa = dtpData.SelectedDate.Value;

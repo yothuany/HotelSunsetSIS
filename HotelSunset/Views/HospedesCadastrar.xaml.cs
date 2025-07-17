@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using HotelSunset.DAO;
 using HotelSunset.Models;
 
 namespace HotelSunset.Views
@@ -31,7 +32,7 @@ namespace HotelSunset.Views
 
             if (!string.IsNullOrWhiteSpace(txtNome.Text))
             {
-                hospede.NomeCompleto = txtNome.Text;
+                hospede.Nome = txtNome.Text;
             }
             else
             {
@@ -41,7 +42,7 @@ namespace HotelSunset.Views
 
             if (!string.IsNullOrWhiteSpace(txtCpf.Text))
             {
-                hospede.CPF = txtCpf.Text;
+                hospede.Cpf = txtCpf.Text;
             }
             else
             {
@@ -63,17 +64,13 @@ namespace HotelSunset.Views
             {
                 hospede.DataNascimento = dtpDataNasc.SelectedDate.Value;
             }
-            else
-            {
-                
-            }
+           
 
-           // var dao = new HospedeDAO();
-            //dao.Insert(hospede);
+             var dao = new HospedesDAO();
+             dao.Insert(hospede);
 
             MessageBox.Show("Hóspede cadastrado com sucesso!", "Confirmação", MessageBoxButton.OK, MessageBoxImage.Information);
 
-            this.Close();
         }
 
         private void btLimpar_Click(object sender, RoutedEventArgs e)
@@ -83,6 +80,13 @@ namespace HotelSunset.Views
             dtpDataNasc.SelectedDate = null;
             txtEmail.Clear();
             txtTelefone.Clear();
+        }
+
+        private void btVoltar_Click(object sender, RoutedEventArgs e)
+        {
+            HospedesListar hospedesListar = new HospedesListar();
+            hospedesListar.Show();
+            this.Hide();    
         }
     }
 }

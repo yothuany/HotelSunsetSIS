@@ -9,8 +9,8 @@ namespace HotelSunset.Models
     public class Hospedes
     {
         public int Id { get; set; }
-        public string NomeCompleto { get; set; }
-        public string CPF { get; set; }
+        public string Nome { get; set; }
+        public string Cpf { get; set; }
         public DateTime DataNascimento { get; set; }
         public string Telefone { get; set; }
         public string Email { get; set; }
@@ -23,8 +23,8 @@ namespace HotelSunset.Models
         public Hospedes(int id, string nomeCompleto, string cpf, DateTime dataNascimento, string telefone, string email)
         {
             Id = id;
-            NomeCompleto = nomeCompleto;
-            CPF = cpf;
+            Nome = nomeCompleto;
+            Cpf = cpf;
             DataNascimento = dataNascimento;
             Telefone = Telefone;
             Email = email;

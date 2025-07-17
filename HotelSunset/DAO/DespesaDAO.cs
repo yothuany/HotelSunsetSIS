@@ -33,7 +33,7 @@ namespace HotelSunset.DAO
 
                 if (reader.Read())
                 {
-                    despesa = new Despesas(); // Cria a instância apenas se houver dados
+                    despesa = new Despesas(); 
                     despesa.Id = reader.GetInt32("id_despesa");
                     despesa.DataDespesa = reader.GetDateTime("data_des");
                     despesa.Valor = reader.GetDecimal("valor_des");
@@ -42,7 +42,7 @@ namespace HotelSunset.DAO
                     despesa.Descricao = reader.IsDBNull(reader.GetOrdinal("descricao_des")) ? string.Empty : reader.GetString("descricao_des");
                     despesa.Parcelas = reader.IsDBNull(reader.GetOrdinal("parcela_des")) ? string.Empty : reader.GetString("parcela_des");
                 }
-                return despesa; // Retorna null se nenhum registro for encontrado
+                return despesa;
             }
             catch (Exception ex)
             {

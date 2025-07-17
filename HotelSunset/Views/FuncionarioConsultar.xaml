@@ -133,37 +133,37 @@
 
                     <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Nome:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="{Binding NomeFuncionario}" IsEnabled="False"/>
+                        <TextBox x:Name="txtNome" Text="{Binding NomeFuncionario}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="0" Grid.Column="1">
                         <TextBlock Text="CPF:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="{Binding CpfFuncionario}" IsEnabled="False"/>
+                        <TextBox x:Name="txtCPF" Text="{Binding CpfFuncionario}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Data de Nascimento:" Style="{StaticResource LabelStyle}"/>
-                        <DatePicker  SelectedDateFormat="Short" SelectedDate="{Binding DataNascimentoFuncionario}" IsEnabled="False"/>
+                        <DatePicker x:Name="dtpNascimento"  SelectedDateFormat="Short" SelectedDate="{Binding DataNascimentoFuncionario}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="1" Grid.Column="1">
                         <TextBlock Text="RG:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="{Binding RgFuncionario}" IsEnabled="False"/>
+                        <TextBox x:Name="txtRG" Text="{Binding RgFuncionario}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="2" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Salário:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="{Binding SalarioFuncionario}" IsEnabled="False"/>
+                        <TextBox x:Name="txtSalario" Text="{Binding SalarioFuncionario}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="2" Grid.Column="1">
                         <TextBlock Text="Email:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="{Binding EmailFuncionario}" IsEnabled="False"/>
+                        <TextBox x:Name="txtEmail" Text="{Binding EmailFuncionario}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="3" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Telefone:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="{Binding TelefoneFuncionario}" IsEnabled="False"/>
+                        <TextBox x:Name="txtTelefone" Text="{Binding TelefoneFuncionario}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="3" Grid.Column="1">
@@ -172,9 +172,9 @@
                 </Grid>
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
-                    <Button Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30"/>
-                    <Button Content="Limpar" Style="{StaticResource ClearButton}" Height="30" Width="80"/>
-                    <Button Content="Editar" Style="{StaticResource EditButton}" Height="30" Width="80"/>
+                    <Button x:Name="btVoltar" Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30" Click="btVoltar_Click"/>
+                    <Button x:Name="btLimpar" Content="Limpar" Style="{StaticResource ClearButton}" Height="30" Width="80" Click="btLimpar_Click_1"/>
+                    <Button x:Name="btEditar" Content="Editar" Style="{StaticResource EditButton}" Height="30" Width="80" Click="btEditar_Click"/>
                 </StackPanel>
             </StackPanel>
         </Border>

@@ -11,13 +11,12 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using HotelSunset.DAO;
 using HotelSunset.Models;
 
 namespace HotelSunset.Views
 {
-    /// <summary>
-    /// Lógica interna para FuncionariosCadastrar.xaml
-    /// </summary>
+
     public partial class FuncionariosCadastrar : Window
     {
         public FuncionariosCadastrar()
@@ -77,8 +76,8 @@ namespace HotelSunset.Views
 
             funcionario.Email = txtEmail.Text ?? string.Empty;
 
-            //var dao = new FuncionarioDAO();
-            //dao.Insert(funcionario);
+             var dao = new FuncionariosDAO();
+             dao.Insert(funcionario);
 
             MessageBox.Show("Funcionário cadastrado com sucesso!", "Confirmação", MessageBoxButton.OK, MessageBoxImage.Information);
 

@@ -37,7 +37,7 @@ namespace HotelSunset
 
         private void HospedesButton_Click(object sender, RoutedEventArgs e)
         {
-            HospedesCadastrar hospedes = new HospedesCadastrar();
+            HospedesListar hospedes = new HospedesListar();
             hospedes.Show();
             this.Hide();
         }
