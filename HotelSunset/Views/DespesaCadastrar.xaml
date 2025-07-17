@@ -149,11 +149,13 @@
                             <ComboBoxItem Content="Caixa 01 (Aberto em 15/07)"/>
                             <ComboBoxItem Content="Caixa 02 (Fechado em 14/07)"/>
                         </ComboBox>
+                        
+                           <TextBlock Text="Descrição:" Style="{StaticResource LabelStyle}"/>
+   <TextBox TextWrapping="Wrap" AcceptsReturn="True" Height="62" Width="340" Text="{Binding DescricaoDespesa}" HorizontalAlignment="Left"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="3" Grid.ColumnSpan="2" Margin="0,10,0,0">
-                        <TextBlock Text="Descrição:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox TextWrapping="Wrap" AcceptsReturn="True" Height="62" Width="340" Text="{Binding DescricaoDespesa}" HorizontalAlignment="Left"/>
+                     
                     </StackPanel>
 
                 </Grid>

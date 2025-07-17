@@ -35,8 +35,57 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.5.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.30.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.30.0\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.9.3.0\lib\net48\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -64,14 +113,33 @@
     <Reference Include="Xceed.Wpf.Toolkit, Version=4.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
       <HintPath>..\packages\Extended.Wpf.Toolkit.4.7.25104.5739\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
     </Reference>
+    <Reference Include="ZstdSharp, Version=0.8.5.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZstdSharp.Port.0.8.5\lib\net462\ZstdSharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Models\Caixa.cs" />
+    <Compile Include="Models\Despesas.cs" />
+    <Compile Include="Models\Estoque.cs" />
+    <Compile Include="Models\Funcionarios.cs" />
+    <Compile Include="Models\Hospedes.cs" />
+    <Compile Include="Models\Pagamentos.cs" />
+    <Compile Include="Models\Produtos.cs" />
+    <Compile Include="Models\Quartos.cs" />
+    <Compile Include="Models\Reservas.cs" />
+    <Compile Include="Models\Servicos.cs" />
+    <Compile Include="Models\TiposQuarto.cs" />
+    <Compile Include="Models\Vendas.cs" />
+    <Compile Include="Ultilitarios\Conexao.cs" />
     <Compile Include="Views\CaixaCadastrar.xaml.cs">
       <DependentUpon>CaixaCadastrar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CaixaConsultar.xaml.cs">
+      <DependentUpon>CaixaConsultar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\CaixaListar.xaml.cs">
       <DependentUpon>CaixaListar.xaml</DependentUpon>
@@ -79,14 +147,23 @@
     <Compile Include="Views\DespesaCadastrar.xaml.cs">
       <DependentUpon>DespesaCadastrar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\DespesaConsultar.xaml.cs">
+      <DependentUpon>DespesaConsultar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\DespesaListar.xaml.cs">
       <DependentUpon>DespesaListar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\EstoqueCadastrar.xaml.cs">
       <DependentUpon>EstoqueCadastrar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\EstoqueConsultar.xaml.cs">
+      <DependentUpon>EstoqueConsultar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\EstoqueListar.xaml.cs">
       <DependentUpon>EstoqueListar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FuncionarioConsultar.xaml.cs">
+      <DependentUpon>FuncionarioConsultar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\FuncionariosCadastrar.xaml.cs">
       <DependentUpon>FuncionariosCadastrar.xaml</DependentUpon>
@@ -97,11 +174,17 @@
     <Compile Include="Views\HospedesCadastrar.xaml.cs">
       <DependentUpon>HospedesCadastrar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\HospedesConsultar.xaml.cs">
+      <DependentUpon>HospedesConsultar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\HospedesListar.xaml.cs">
       <DependentUpon>HospedesListar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\PagamentosCadastrar.xaml.cs">
       <DependentUpon>PagamentosCadastrar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PagamentosConsultar.xaml.cs">
+      <DependentUpon>PagamentosConsultar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\PagamentosListar.xaml.cs">
       <DependentUpon>PagamentosListar.xaml</DependentUpon>
@@ -109,11 +192,17 @@
     <Compile Include="Views\ProdutosCadastrar.xaml.cs">
       <DependentUpon>ProdutosCadastrar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ProdutosConsultar.xaml.cs">
+      <DependentUpon>ProdutosConsultar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ProdutosListar.xaml.cs">
       <DependentUpon>ProdutosListar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\QuartosCadastrar.xaml.cs">
       <DependentUpon>QuartosCadastrar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuartosConsultar.xaml.cs">
+      <DependentUpon>QuartosConsultar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\QuartosListar.xaml.cs">
       <DependentUpon>QuartosListar.xaml</DependentUpon>
@@ -121,11 +210,17 @@
     <Compile Include="Views\ReservasCadastrar.xaml.cs">
       <DependentUpon>ReservasCadastrar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ReservasConsultar.xaml.cs">
+      <DependentUpon>ReservasConsultar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ReservasListar.xaml.cs">
       <DependentUpon>ReservasListar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ServicosCadastrar.xaml.cs">
       <DependentUpon>ServicosCadastrar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ServicosConsultar.xaml.cs">
+      <DependentUpon>ServicosConsultar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ServicosListar.xaml.cs">
       <DependentUpon>ServicosListar.xaml</DependentUpon>
@@ -136,8 +231,14 @@
     <Compile Include="Views\TiposQuartoListar.xaml.cs">
       <DependentUpon>TiposQuartoListar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\TiposQuartosConsultar.xaml.cs">
+      <DependentUpon>TiposQuartosConsultar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\VendasCadastrar.xaml.cs">
       <DependentUpon>VendasCadastrar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\VendasConsultar.xaml.cs">
+      <DependentUpon>VendasConsultar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\VendasListar.xaml.cs">
       <DependentUpon>VendasListar.xaml</DependentUpon>
@@ -158,11 +259,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\CaixaConsultar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\CaixaListar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\DespesaCadastrar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DespesaConsultar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -174,7 +283,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\EstoqueConsultar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\EstoqueListar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FuncionarioConsultar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -190,11 +307,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\HospedesConsultar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\HospedesListar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\PagamentosCadastrar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PagamentosConsultar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -206,11 +331,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ProdutosConsultar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ProdutosListar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\QuartosCadastrar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuartosConsultar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -222,11 +355,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ReservasConsultar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ReservasListar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ServicosCadastrar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ServicosConsultar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -242,7 +383,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\TiposQuartosConsultar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\VendasCadastrar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\VendasConsultar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -269,6 +418,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -277,7 +427,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DAO\" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\logo.png" />
   </ItemGroup>
