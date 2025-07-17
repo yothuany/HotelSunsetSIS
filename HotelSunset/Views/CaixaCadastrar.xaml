@@ -8,25 +8,17 @@
         Title="Gerenciar Caixa" Height="480" Width="750"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen">
-    <!-- Inicia a janela no centro da tela -->
-    <!-- NOTA: Com ResizeMode="NoResize", apenas o botão de fechar ('X') estará visível. -->
-    <!-- Os botões de minimizar e maximizar serão ocultados. -->
 
     <Window.Resources>
-        <!-- Estilo para os rótulos dos campos -->
         <Style x:Key="LabelStyle" TargetType="TextBlock">
             <Setter Property="Foreground" Value="#333333"/>
-            <!-- Cinzento escuro para melhor contraste -->
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="Margin" Value="0,0,0,4"/>
         </Style>
-
-        <!-- Estilo BASE para os campos de entrada (TextBox, ComboBox, DatePicker) -->
-        <!-- Este estilo define as propriedades visuais comuns sem sobrescrever o Template -->
+        
         <Style x:Key="InputBaseStyle" TargetType="{x:Type Control}">
             <Setter Property="Padding" Value="5"/>
             <Setter Property="BorderBrush" Value="#D1D5DB"/>
-            <!-- Cor da borda cinza claro -->
             <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="Background" Value="White"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
@@ -34,25 +26,18 @@
             <Setter Property="Margin" Value="0,0,0,8"/>
             <Setter Property="SnapsToDevicePixels" Value="True"/>
             <Setter Property="Foreground" Value="#333333"/>
-            <!-- Garante a cor do texto -->
         </Style>
 
         <!-- Estilo específico para o TextBox, baseado no InputBaseStyle -->
         <Style TargetType="TextBox" BasedOn="{StaticResource InputBaseStyle}">
-            <!-- Nenhuma alteração de template, herda do InputBaseStyle -->
         </Style>
 
-        <!-- Estilo específico para o ComboBox, baseado no InputBaseStyle -->
         <Style TargetType="ComboBox" BasedOn="{StaticResource InputBaseStyle}">
-            <!-- Nenhuma alteração de template. O triângulo aparecerá porque o template padrão do ComboBox será usado. -->
         </Style>
 
-        <!-- Estilo específico para o DatePicker, baseado no InputBaseStyle -->
         <Style TargetType="DatePicker" BasedOn="{StaticResource InputBaseStyle}">
-            <!-- Nenhuma alteração de template. O botão de calendário aparecerá porque o template padrão do DatePicker será usado. -->
         </Style>
 
-        <!-- Estilo BASE para os botões de ação -->
         <Style x:Key="ActionButtonStyle" TargetType="Button">
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="FontWeight" Value="Bold"/>
@@ -76,38 +61,29 @@
             </Setter>
         </Style>
 
-        <!-- Estilo específico para o botão Voltar -->
         <Style x:Key="BackButton" TargetType="Button" BasedOn="{StaticResource ActionButtonStyle}">
             <Setter Property="Background" Value="#6B7280"/>
-            <!-- gray-500 -->
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#4A5568"/>
-                    <!-- gray-700 -->
                 </Trigger>
             </Style.Triggers>
         </Style>
 
-        <!-- Estilo específico para o botão Limpar -->
         <Style x:Key="ClearButton" TargetType="Button" BasedOn="{StaticResource ActionButtonStyle}">
             <Setter Property="Background" Value="#9CA3AF"/>
-            <!-- gray-400 -->
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#6B7280"/>
-                    <!-- gray-600 -->
                 </Trigger>
             </Style.Triggers>
         </Style>
 
-        <!-- Estilo específico para o botão Salvar -->
         <Style x:Key="SaveButton" TargetType="Button" BasedOn="{StaticResource ActionButtonStyle}">
             <Setter Property="Background" Value="#F97316"/>
-            <!-- orange-500 -->
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#C2410C"/>
-                    <!-- orange-700 -->
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -115,7 +91,6 @@
     </Window.Resources>
 
     <Grid>
-        <!-- Fundo em gradiente: Amarelo para Vermelho/Rosa (Pôr do Sol) -->
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                 <GradientStop Color="#FDE68A" Offset="0"/>
@@ -130,9 +105,7 @@
             <!-- Linha para o conteúdo principal (formulário) -->
         </Grid.RowDefinitions>
 
-        <!-- Área de espaçamento superior (Row 0) -->
-
-        <!-- Formulário de Caixa (Row 1) -->
+      
         <Border Grid.Row="1" Background="White" CornerRadius="10" Padding="10"
                 HorizontalAlignment="Center" VerticalAlignment="Center" Height="310">
             <Border.Effect>
@@ -140,7 +113,6 @@
             </Border.Effect>
 
             <StackPanel Width="650">
-                <!-- Largura fixa para o formulário -->
                 <TextBlock FontSize="20" FontWeight="Bold" Foreground="#8B4513" Margin="0,0,0,15">
                     <Run Language="pt-br" Text="Gerenciar Caixa"/>
                 </TextBlock>
@@ -157,29 +129,24 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
 
-                    <!-- Valor Inicial -->
                     <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Valor Inicial:" Style="{StaticResource LabelStyle}"/>
                         <TextBox  Text="{Binding ValorInicialCaixa}" />
                     </StackPanel>
 
-                    <!-- Data de Abertura -->
                     <StackPanel Grid.Row="0" Grid.Column="1">
                         <TextBlock Text="Data de Abertura:" Style="{StaticResource LabelStyle}"/>
                         <DatePicker SelectedDateFormat="Short" SelectedDate="{Binding DataAberturaCaixa}"/>
                     </StackPanel>
 
-                    <!-- Data de Fechamento -->
                     <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Data de Fechamento:" Style="{StaticResource LabelStyle}"/>
                         <DatePicker SelectedDateFormat="Short" SelectedDate="{Binding DataFechamentoCaixa}"/>
                     </StackPanel>
 
-                    <!-- Total Entradas -->
                     <StackPanel Grid.Row="1" Grid.Column="1">
                         <TextBlock Text="Total Entradas:" Style="{StaticResource LabelStyle}"/>
                         <TextBox  Text="{Binding TotalEntradasCaixa}" IsReadOnly="True" Background="#F0F0F0"/>
-                        <!-- ReadOnly para ser calculado -->
                     </StackPanel>
 
                     <!-- Total Saídas -->

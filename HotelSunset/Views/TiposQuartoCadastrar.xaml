@@ -4,29 +4,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HotelSunset.Views"
-                    mc:Ignorable="d"
+        mc:Ignorable="d"
         Title="Cadastrar Tipo de Quarto" Height="480" Width="750"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen">
-    <!-- Inicia a janela no centro da tela -->
-    <!-- NOTA: Com ResizeMode="NoResize", apenas o botão de fechar ('X') estará visível. -->
-    <!-- Os botões de minimizar e maximizar serão ocultados. -->
-
     <Window.Resources>
-        <!-- Estilo para os rótulos dos campos -->
         <Style x:Key="LabelStyle" TargetType="TextBlock">
             <Setter Property="Foreground" Value="#333333"/>
-            <!-- Cinzento escuro para melhor contraste -->
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="Margin" Value="0,0,0,4"/>
         </Style>
 
-        <!-- Estilo BASE para os campos de entrada (TextBox, ComboBox, DatePicker) -->
-        <!-- Este estilo define as propriedades visuais comuns sem sobrescrever o Template -->
         <Style x:Key="InputBaseStyle" TargetType="{x:Type Control}">
             <Setter Property="Padding" Value="5"/>
             <Setter Property="BorderBrush" Value="#D1D5DB"/>
-            <!-- Cor da borda cinza claro -->
             <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="Background" Value="White"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
@@ -34,25 +25,14 @@
             <Setter Property="Margin" Value="0,0,0,8"/>
             <Setter Property="SnapsToDevicePixels" Value="True"/>
             <Setter Property="Foreground" Value="#333333"/>
-            <!-- Garante a cor do texto -->
         </Style>
 
-        <!-- Estilo específico para o TextBox, baseado no InputBaseStyle -->
-        <Style TargetType="TextBox" BasedOn="{StaticResource InputBaseStyle}">
-            <!-- Nenhuma alteração de template, herda do InputBaseStyle -->
-        </Style>
+        <Style TargetType="TextBox" BasedOn="{StaticResource InputBaseStyle}"/>
 
-        <!-- Estilo específico para o ComboBox, baseado no InputBaseStyle -->
-        <Style TargetType="ComboBox" BasedOn="{StaticResource InputBaseStyle}">
-            <!-- Nenhuma alteração de template. O triângulo aparecerá porque o template padrão do ComboBox será usado. -->
-        </Style>
+        <Style TargetType="ComboBox" BasedOn="{StaticResource InputBaseStyle}"/>
 
-        <!-- Estilo específico para o DatePicker, baseado no InputBaseStyle -->
-        <Style TargetType="DatePicker" BasedOn="{StaticResource InputBaseStyle}">
-            <!-- Nenhuma alteração de template. O botão de calendário aparecerá porque o template padrão do DatePicker será usado. -->
-        </Style>
+        <Style TargetType="DatePicker" BasedOn="{StaticResource InputBaseStyle}"/>
 
-        <!-- Estilo BASE para os botões de ação -->
         <Style x:Key="ActionButtonStyle" TargetType="Button">
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="FontWeight" Value="Bold"/>
@@ -69,45 +49,35 @@
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <ControlTemplate.Triggers>
-                            <!-- Triggers de Background específicos para cada botão abaixo -->
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
         </Style>
 
-        <!-- Estilo específico para o botão Voltar -->
         <Style x:Key="BackButton" TargetType="Button" BasedOn="{StaticResource ActionButtonStyle}">
             <Setter Property="Background" Value="#6B7280"/>
-            <!-- gray-500 -->
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#4A5568"/>
-                    <!-- gray-700 -->
                 </Trigger>
             </Style.Triggers>
         </Style>
 
-        <!-- Estilo específico para o botão Limpar -->
         <Style x:Key="ClearButton" TargetType="Button" BasedOn="{StaticResource ActionButtonStyle}">
             <Setter Property="Background" Value="#9CA3AF"/>
-            <!-- gray-400 -->
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#6B7280"/>
-                    <!-- gray-600 -->
                 </Trigger>
             </Style.Triggers>
         </Style>
 
-        <!-- Estilo específico para o botão Salvar -->
         <Style x:Key="SaveButton" TargetType="Button" BasedOn="{StaticResource ActionButtonStyle}">
             <Setter Property="Background" Value="#F97316"/>
-            <!-- orange-500 -->
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#C2410C"/>
-                    <!-- orange-700 -->
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -115,7 +85,6 @@
     </Window.Resources>
 
     <Grid>
-        <!-- Fundo em gradiente: Amarelo para Vermelho/Rosa (Pôr do Sol) -->
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                 <GradientStop Color="#FDE68A" Offset="0"/>
@@ -125,13 +94,9 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <!-- Linha para espaçamento superior -->
             <RowDefinition Height="*"/>
-            <!-- Linha para o conteúdo principal (formulário) -->
         </Grid.RowDefinitions>
 
-
-        <!-- Formulário de Tipos de Quarto (Row 1) -->
         <Border Grid.Row="1" Background="White" CornerRadius="10" Padding="10"
                 HorizontalAlignment="Center" VerticalAlignment="Center" Height="310">
             <Border.Effect>
@@ -139,7 +104,6 @@
             </Border.Effect>
 
             <StackPanel Width="650">
-                <!-- Largura fixa para o formulário -->
                 <TextBlock FontSize="20" FontWeight="Bold" Foreground="#8B4513" Margin="0,0,0,15">
                     <Run Language="pt-br" Text="Cadastrar Tipo de Quarto"/>
                 </TextBlock>
@@ -155,21 +119,18 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
 
-                    <!-- Nome do Tipo -->
                     <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Nome do Tipo:" Style="{StaticResource LabelStyle}"/>
                         <TextBox Text="{Binding NomeTipo}"/>
                     </StackPanel>
 
-                    <!-- Descrição -->
                     <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Margin="0,10,0,0">
                         <TextBlock Text="Descrição:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox TextWrapping="Wrap" AcceptsReturn="True" Height="62" Width="340" Text="{Binding DescricaoTipo}"  HorizontalAlignment="Left"/>
+                        <TextBox TextWrapping="Wrap" AcceptsReturn="True" Height="62" Width="340" Text="{Binding DescricaoTipo}" HorizontalAlignment="Left"/>
                     </StackPanel>
 
                 </Grid>
 
-                <!-- Botões de Ação -->
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
                     <Button Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30"/>
                     <Button Content="Limpar" Style="{StaticResource ClearButton}" Height="30" Width="80"/>

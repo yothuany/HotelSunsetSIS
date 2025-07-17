@@ -73,38 +73,74 @@
     <Compile Include="Views\CaixaCadastrar.xaml.cs">
       <DependentUpon>CaixaCadastrar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\CaixaListar.xaml.cs">
+      <DependentUpon>CaixaListar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\DespesaCadastrar.xaml.cs">
       <DependentUpon>DespesaCadastrar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DespesaListar.xaml.cs">
+      <DependentUpon>DespesaListar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\EstoqueCadastrar.xaml.cs">
       <DependentUpon>EstoqueCadastrar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\EstoqueListar.xaml.cs">
+      <DependentUpon>EstoqueListar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\FuncionariosCadastrar.xaml.cs">
       <DependentUpon>FuncionariosCadastrar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FuncionariosListar.xaml.cs">
+      <DependentUpon>FuncionariosListar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\HospedesCadastrar.xaml.cs">
       <DependentUpon>HospedesCadastrar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\HospedesListar.xaml.cs">
+      <DependentUpon>HospedesListar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\PagamentosCadastrar.xaml.cs">
       <DependentUpon>PagamentosCadastrar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PagamentosListar.xaml.cs">
+      <DependentUpon>PagamentosListar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ProdutosCadastrar.xaml.cs">
       <DependentUpon>ProdutosCadastrar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ProdutosListar.xaml.cs">
+      <DependentUpon>ProdutosListar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\QuartosCadastrar.xaml.cs">
       <DependentUpon>QuartosCadastrar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuartosListar.xaml.cs">
+      <DependentUpon>QuartosListar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ReservasCadastrar.xaml.cs">
       <DependentUpon>ReservasCadastrar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ReservasListar.xaml.cs">
+      <DependentUpon>ReservasListar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ServicosCadastrar.xaml.cs">
       <DependentUpon>ServicosCadastrar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ServicosListar.xaml.cs">
+      <DependentUpon>ServicosListar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\TiposQuartoCadastrar.xaml.cs">
       <DependentUpon>TiposQuartoCadastrar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\TiposQuartoListar.xaml.cs">
+      <DependentUpon>TiposQuartoListar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\VendasCadastrar.xaml.cs">
       <DependentUpon>VendasCadastrar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\VendasListar.xaml.cs">
+      <DependentUpon>VendasListar.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -122,7 +158,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\CaixaListar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\DespesaCadastrar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DespesaListar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -130,7 +174,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\EstoqueListar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\FuncionariosCadastrar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FuncionariosListar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -138,7 +190,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\HospedesListar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\PagamentosCadastrar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PagamentosListar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -146,7 +206,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ProdutosListar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\QuartosCadastrar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuartosListar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -154,7 +222,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ReservasListar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ServicosCadastrar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ServicosListar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -162,7 +238,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\TiposQuartoListar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\VendasCadastrar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\VendasListar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -185,7 +269,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
