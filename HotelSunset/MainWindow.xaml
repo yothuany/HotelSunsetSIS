@@ -4,9 +4,154 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HotelSunset"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+                mc:Ignorable="d"
+
+    Title="Hotel Sunset - Menu Principal" Height="480" Width="750"
+ ResizeMode="NoResize"      WindowStartupLocation="CenterScreen">
+    <!-- Inicia a janela no centro da tela -->
+    <!-- NOTA: Os botões de minimizar, maximizar e fechar são funcionalidades padrão das janelas WPF. -->
+    <!-- Se não estiverem a aparecer, verifique as propriedades da sua janela (ex: WindowStyle="None" pode removê-los). -->
+
+    <Window.Resources>
+        <!-- Estilo para os botões do menu com o visual Laranja/Pôr do Sol -->
+        <Style x:Key="MenuButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#F97316"/>
+            <!-- Cor de fundo do botão: Laranja (orange-500) -->
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="100"/>
+            <!-- Largura para 4 botões por linha -->
+            <Setter Property="Height" Value="70"/>
+            <!-- Altura ajustada -->
+            <Setter Property="Margin" Value="8"/>
+            <!-- Margem entre os botões -->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="10">
+                            <!-- Cantos mais arredondados -->
+                            <Border.Effect>
+                                <DropShadowEffect ShadowDepth="4" Direction="270" Color="#000000" Opacity="0.3" BlurRadius="5"/>
+                                <!-- Sombra para efeito 3D -->
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#EA580C"/>
+                                <!-- Cor mais escura no hover (orange-600) -->
+                                <Setter Property="RenderTransform">
+                                    <Setter.Value>
+                                        <TranslateTransform Y="-4"/>
+                                        <!-- Efeito de "levantar" no hover -->
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect ShadowDepth="6" Direction="270" Color="#000000" Opacity="0.4" BlurRadius="8"/>
+                                        <!-- Sombra maior no hover -->
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="RenderTransform">
+                                    <Setter.Value>
+                                        <TranslateTransform Y="0"/>
+                                        <!-- Retorna à posição normal ao clicar -->
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+            <!-- Define o ponto de origem para a transformação -->
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <TranslateTransform Y="0"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+        </Style>
+    </Window.Resources>
+
     <Grid>
-        
+        <!-- Removido Margin="0,0,0,-50" -->
+        <!-- Fundo em gradiente: Amarelo para Vermelho/Rosa (Pôr do Sol) -->
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#FDE68A" Offset="0"/>
+                <GradientStop Color="#FCA5A5" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Ajustado para Auto, MinHeight não é mais necessário aqui -->
+            <!-- Linha para o cabeçalho/logo -->
+            <RowDefinition Height="*"/>
+            <!-- Linha para o conteúdo principal (botões) -->
+        </Grid.RowDefinitions>
+
+        <!-- Área do Cabeçalho (Row 0) -->
+        <Grid Grid.Row="0">
+            <!-- Removido Margin="0,-50,0,10" -->
+            <!-- Logo no canto superior esquerdo -->
+            <Image Source="/images/logo.png"
+                   Width="131" Height="116" 
+                HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   Margin="0,-1,0,0" />
+
+
+        </Grid>
+
+        <!-- Container principal para os botões do menu (Row 1) -->
+        <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!-- Removido Height e Width fixos -->
+            <!-- Linha 1 de botões -->
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="ReservaButton" Style="{StaticResource MenuButtonStyle}" Content="Reservas" Click="ReservaButton_Click"/>
+                <!-- Removido Click -->
+                <Button x:Name="HospedesButton" Style="{StaticResource MenuButtonStyle}" Content="Hóspedes" Click="HospedesButton_Click"/>
+                <!-- Removido Click -->
+                <Button x:Name="QuartosButton" Style="{StaticResource MenuButtonStyle}" Content="Quartos" Click="QuartosButton_Click"/>
+                <!-- Removido Click -->
+                <Button x:Name="TiposQuartoButton" Style="{StaticResource MenuButtonStyle}" Content="Tipos de Quarto" Click="TiposQuartoButton_Click"/>
+                <!-- Removido Click -->
+            </StackPanel>
+
+            <!-- Linha 2 de botões -->
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="ServicosButton" Style="{StaticResource MenuButtonStyle}" Content="Serviços" Click="ServicosButton_Click"/>
+                <!-- Removido Click -->
+                <Button x:Name="VendasButton" Style="{StaticResource MenuButtonStyle}" Content="Vendas" Click="VendasButton_Click"/>
+                <!-- Removido Click -->
+                <Button x:Name="ProdutosButton" Style="{StaticResource MenuButtonStyle}" Content="Produtos" Click="ProdutosButton_Click"/>
+                <!-- Removido Click -->
+                <Button x:Name="EstoqueButton" Style="{StaticResource MenuButtonStyle}" Content="Estoque" Click="EstoqueButton_Click"/>
+                <!-- Removido Click -->
+            </StackPanel>
+
+            <!-- Linha 3 de botões -->
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="CaixaButton" Style="{StaticResource MenuButtonStyle}" Content="Caixa" Click="CaixaButton_Click"/>
+                <!-- Removido Click -->
+                <Button x:Name="PagamentosButton" Style="{StaticResource MenuButtonStyle}" Content="Pagamentos" Click="PagamentosButton_Click"/>
+                <!-- Removido Click -->
+                <Button x:Name="DespesasButton" Style="{StaticResource MenuButtonStyle}" Content="Despesas" Click="DespesasButton_Click"/>
+                <!-- Removido Click -->
+                <Button x:Name="FuncionariosButton" Style="{StaticResource MenuButtonStyle}" Content="Funcionários" Click="FuncionariosButton_Click"/>
+                <!-- Removido Click -->
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
+
