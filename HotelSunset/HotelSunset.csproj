@@ -122,6 +122,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DAO\DespesaDAO.cs" />
     <Compile Include="Models\Caixa.cs" />
     <Compile Include="Models\Despesas.cs" />
     <Compile Include="Models\Estoque.cs" />
@@ -427,9 +428,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DAO\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Images\logo.png" />
   </ItemGroup>

@@ -77,8 +77,8 @@ namespace HotelSunset.Views
 
             funcionario.Email = txtEmail.Text ?? string.Empty;
 
-            var dao = new FuncionarioDAO();
-            dao.Insert(funcionario);
+            //var dao = new FuncionarioDAO();
+            //dao.Insert(funcionario);
 
             MessageBox.Show("Funcionário cadastrado com sucesso!", "Confirmação", MessageBoxButton.OK, MessageBoxImage.Information);
 

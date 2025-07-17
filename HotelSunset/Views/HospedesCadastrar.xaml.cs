@@ -68,8 +68,8 @@ namespace HotelSunset.Views
                 
             }
 
-            var dao = new HospedeDAO();
-            dao.Insert(hospede);
+           // var dao = new HospedeDAO();
+            //dao.Insert(hospede);
 
             MessageBox.Show("Hóspede cadastrado com sucesso!", "Confirmação", MessageBoxButton.OK, MessageBoxImage.Information);
 

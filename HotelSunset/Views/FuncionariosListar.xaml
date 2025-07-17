@@ -132,7 +132,7 @@
                       FontSize="12"
                       MaxHeight="300"
                       VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                      SelectionChanged="FuncionariosDataGrid_SelectionChanged" CanUserAddRows="False"
+                       CanUserAddRows="False"
                       d:ItemsSource="{d:SampleData ItemCount=5}">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="ID" Binding="{Binding IdFuncionario}" Width="Auto"/>

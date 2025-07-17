@@ -12,20 +12,24 @@ namespace HotelSunset.Models
         public string Descricao { get; set; }
         public decimal Valor { get; set; }
         public DateTime DataDespesa { get; set; }
-        public int FuncionarioId { get; set; }
+        public string TipoDespesa { get; set; }
+        public string Status {  get; set; }
+        public string Parcelas { get; set; }
 
         public Despesas()
         {
 
         }
 
-        public Despesas(int id, string descricao, decimal valor, DateTime dataDespesa, int funcionarioId)
+        public Despesas(int id, string descricao, decimal valor, DateTime dataDespesa, string tipoDespesa, string status , string parcelas)
         {
             Id = id;
             Descricao = descricao;
             Valor = valor;
             DataDespesa = dataDespesa;
-            FuncionarioId = funcionarioId;
+            TipoDespesa = tipoDespesa;
+            Status = status;
+            Parcelas = parcelas;
         }
     }
 }

@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using HotelSunset.Ultilitarios;
+using MySql.Data.MySqlClient;
 
 namespace HotelSunset.Views
 {
@@ -23,5 +25,6 @@ namespace HotelSunset.Views
         {
             InitializeComponent();
         }
+
     }
 }

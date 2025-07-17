@@ -1,35 +1,63 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using MySql.Data.MySqlClient;
 
 namespace HotelSunset.Ultilitarios
 {
-    internal class Conexao
+    public class Conexao
     {
-        static MySqlConnection conexao;
+        private static string host = "localhost";
+        private static string porta = "3306"; 
+        private static string usuario = "root";
+        private static string senha = "root";
+        private static string nomebd = "BD_HotelSunset"; 
 
-        public static MySqlConnection Conectar()
+        private static MySqlConnection connection;
+        private static MySqlCommand command;
+
+        public Conexao()
         {
             try
             {
-                string strconecao = "server=localhost;port=3360;uid=root;pwd=root;database=BD_HotelSunset";
-                conexao = new MySqlConnection(strconecao);
-                conexao.Open();
+                if (connection == null || connection.State == ConnectionState.Closed)
+                {
+                    connection = new MySqlConnection($"server={host};database={nomebd};port={porta};user={usuario};password={senha}");
+                    connection.Open();
+                }
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Erro na conexão do banco de dados: " + ex.Message);
+                MessageBox.Show($"Erro ao conectar ao banco de dados: {ex.Message}", "Erro de Conexão", MessageBoxButton.OK, MessageBoxImage.Error);
+                throw;
             }
-
-            return conexao;
         }
 
-        public static void FecharConexao()
+        public MySqlCommand Query()
         {
-            conexao.Close();
+            try
+            {
+                command = connection.CreateCommand();
+                command.CommandType = CommandType.Text;
+                return command;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao criar comando SQL: {ex.Message}", "Erro de Comando", MessageBoxButton.OK, MessageBoxImage.Error);
+                throw;
+            }
+        }
+
+        public void Close()
+        {
+            if (connection != null && connection.State == ConnectionState.Open)
+            {
+                connection.Close();
+            }
         }
     }
 }

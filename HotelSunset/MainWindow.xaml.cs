@@ -100,7 +100,7 @@ namespace HotelSunset
 
         private void DespesasButton_Click(object sender, RoutedEventArgs e)
         {
-            DespesaCadastrar despesas = new DespesaCadastrar();
+            DespesaListar despesas = new DespesaListar();
             despesas.Show();
             this.Hide();
         }

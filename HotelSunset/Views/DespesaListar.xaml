@@ -118,7 +118,7 @@
             <Run Language="pt-br" Text="Lista de Despesas"/>
         </TextBlock>
 
-        <Border Grid.Row="1" Background="White" CornerRadius="10" Padding="10"
+        <Border x:Name="DespesaDataGrid1" Grid.Row="1" Background="White" CornerRadius="10" Padding="10"
                 HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="0,10,0,10" Width="700">
             <Border.Effect>
                 <DropShadowEffect ShadowDepth="4" Direction="270" Color="#000000" Opacity="0.2" BlurRadius="8"/>
@@ -135,19 +135,19 @@
                       SelectionChanged="DespesaDataGrid_SelectionChanged" CanUserAddRows="False"
                       d:ItemsSource="{d:SampleData ItemCount=5}">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="ID" Binding="{Binding IdDespesa}" Width="Auto"/>
+                    <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="Auto"/>
                     <DataGridTextColumn Header="Data" Binding="{Binding DataDespesa, StringFormat='dd/MM/yyyy'}" Width="*"/>
-                    <DataGridTextColumn Header="Valor" Binding="{Binding ValorDespesa, StringFormat=C2}" Width="Auto"/>
+                    <DataGridTextColumn Header="Valor" Binding="{Binding Valor, StringFormat=C2}" Width="Auto"/>
                     <DataGridTextColumn Header="Tipo" Binding="{Binding TipoDespesa}" Width="*"/>
-                    <DataGridTextColumn Header="Status" Binding="{Binding StatusDespesa}" Width="*"/>
-                    <DataGridTextColumn Header="Parcelas" Binding="{Binding ParcelasDespesa}" Width="Auto"/>
-                    <DataGridTextColumn Header="Descrição" Binding="{Binding DescricaoDespesa}" Width="*"/>
+                    <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                    <DataGridTextColumn Header="Parcelas" Binding="{Binding Parcelas}" Width="Auto"/>
+                    <DataGridTextColumn Header="Descrição" Binding="{Binding Descricao}" Width="*"/>
                     <DataGridTemplateColumn Width="Auto" Header="Ações">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                    <Button Content="Editar" Style="{StaticResource EditButton}" Width="70" Height="25" Click="Editar_Click"/>
-                                    <Button Content="Excluir" Style="{StaticResource DeleteButton}" Width="70" Height="25" Click="Excluir_Click"/>
+                                    <Button x:Name="btEditar" Content="Editar" Style="{StaticResource EditButton}" Width="70" Height="25" Click="Editar_Click"/>
+                                    <Button x:Name="btExcluir" Content="Excluir" Style="{StaticResource DeleteButton}" Width="70" Height="25" Click="Excluir_Click"/>
                                 </StackPanel>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
@@ -157,8 +157,8 @@
         </Border>
 
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,20,10">
-            <Button Content="Novo" Style="{StaticResource NewButton}" Width="80" Height="30" Click="Novo_Click"/>
-            <Button Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30" Click="Voltar_Click"/>
+            <Button x:Name="btNovo" Content="Novo" Style="{StaticResource NewButton}" Width="80" Height="30" Click="Novo_Click"/>
+            <Button x:Name="btVoltar" Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30" Click="Voltar_Click"/>
         </StackPanel>
     </Grid>
 </Window>
