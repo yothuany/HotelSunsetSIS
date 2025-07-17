@@ -123,6 +123,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="DAO\DespesaDAO.cs" />
+    <Compile Include="DAO\HospedesDAO.cs" />
     <Compile Include="Models\Caixa.cs" />
     <Compile Include="Models\Despesas.cs" />
     <Compile Include="Models\Estoque.cs" />

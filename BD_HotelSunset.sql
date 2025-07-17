@@ -85,6 +85,16 @@ CREATE TABLE TiposPagamento(
     nome_tpg VARCHAR(50) NOT NULL UNIQUE,
     descricao_tpg TEXT
 );
+
+CREATE TABLE Despesas (
+    id_despesa INT PRIMARY KEY AUTO_INCREMENT,
+    data_des DATE NOT NULL,
+    valor_des DECIMAL(10,2) NOT NULL,
+    tipo_des VARCHAR(100) NOT NULL,
+    status_des VARCHAR(20) NOT NULL, 
+    parcela_des VARCHAR(5),         
+    descricao_des TEXT
+);
 CREATE TABLE Vendas(
     id_venda INT PRIMARY KEY AUTO_INCREMENT,
     data_ven DATETIME,
@@ -102,15 +112,10 @@ CREATE TABLE Pagamentos(
     valor_pag DECIMAL(10, 2) NOT NULL,
     data_pag DATETIME,
     status_pag VARCHAR(50) DEFAULT 'Pendente', # 'Pendente', 'Concluído', 'Reembolsado', 'Falhou'
-    id_reserva_fk INT,
-    id_caixa_fk INT NOT NULL,
-    id_venda_fk INT,
 	id_tipo_pagamento_fk INT NOT NULL,
-    FOREIGN KEY(id_reserva_fk) REFERENCES Reservas(id_reserva) ON DELETE CASCADE,
-    FOREIGN KEY(id_caixa_fk) REFERENCES Caixa(id_caixa), 
-    FOREIGN KEY(id_venda_fk) REFERENCES Vendas(id_venda) ON DELETE CASCADE,
-	FOREIGN KEY(id_tipo_pagamento_fk) REFERENCES TiposPagamento(id_tipo_pagamento),
-    CONSTRAINT chk_origem_pagamento CHECK (id_reserva_fk IS NOT NULL OR id_venda_fk IS NOT NULL)
+    id_despesa_fk INT NOT NULL,
+    FOREIGN KEY(id_despesa_fk) REFERENCES Despesas(id_despesa), 
+	FOREIGN KEY(id_tipo_pagamento_fk) REFERENCES TiposPagamento(id_tipo_pagamento)
 );
 
 CREATE TABLE Produtos(
@@ -246,6 +251,18 @@ total_entradas_cai, total_saidas_cai, id_funcionario_fk) VALUES
 (180.00, '2025-07-18 08:00:00', '2025-07-18 17:00:00', 620.00, 55.00, 7),
 (130.00, '2025-07-19 08:00:00', NULL, 380.00, 25.00, 8);
 
+INSERT INTO Despesas (data_des, valor_des, tipo_des, status_des, parcela_des, descricao_des)
+VALUES ('2025-07-01', 120.50, 'Manutenção', 'Pago', '1x', 'Troca de lâmpadas e revisão elétrica'),
+('2025-07-03', 300.00, 'Alimentação', 'Pendente', '2x', 'Compra de frutas e legumes para café da manhã'),
+('2025-07-05', 80.75, 'Limpeza', 'Pago', '1x', 'Produtos de limpeza para os quartos'),
+('2025-07-07', 500.00, 'Serviços Terceirizados', 'Pendente', '5x', 'Contrato com empresa de jardinagem'),
+('2025-07-10', 150.00, 'Internet', 'Pago', '1x', 'Fatura mensal do provedor de internet'),
+('2025-07-12', 220.90, 'Marketing', 'Pendente', '3x', 'Criação de banners promocionais'),
+('2025-07-15', 75.00, 'Lavanderia', 'Pago', '1x', 'Lavagem de roupas de cama'),
+('2025-07-17', 420.30, 'Equipamentos', 'Pago', '4x', 'Compra de novos ventiladores'),
+('2025-07-18', 190.00, 'Treinamento', 'Pendente', '2x', 'Curso para equipe de atendimento'),
+('2025-07-20', 50.00, 'Outros', 'Pago', '1x', 'Despesas diversas do caixa');
+
 INSERT INTO Produtos (nome_pro, descricao_pro, preco_pro) VALUES
 ('Água Mineral 500ml', 'Garrafa de água mineral sem gás.', 5.00),
 ('Refrigerante Lata', 'Lata de refrigerante variados.', 8.00),
@@ -294,22 +311,22 @@ INSERT INTO Vendas (data_ven, valor_total_ven, id_tipo_pagamento_fk, id_reserva_
 ('2025-07-18 11:00:00', 33.00, 2, NULL, 9),
 ('2025-07-19 15:00:00', 48.00, 1, 9, 10);
 
-INSERT INTO Pagamentos (valor_pag, data_pag, id_tipo_pagamento_fk, status_pag, id_reserva_fk, id_caixa_fk, id_venda_fk) VALUES
-(600.00, '2025-07-28 10:00:00', 1, 'Concluído', 1, 1, NULL),
-(450.00, '2025-08-09 11:00:00', 3, 'Pendente', 2, 2, NULL),
-(1500.00, '2025-07-19 15:00:00', 2, 'Concluído', 3, 3, NULL),
-(1000.00, '2025-08-30 09:00:00', 4, 'Pendente', 4, 4, NULL),
-(300.00, '2025-07-04 14:00:00', 2, 'Reembolsado', 5, 1, NULL),
-(900.00, '2025-08-14 16:00:00', 1, 'Concluído', 6, 5, NULL),
-(750.00, '2025-09-19 10:00:00', 3, 'Pendente', 7, 6, NULL),
-(300.00, '2025-07-27 11:00:00', 2, 'Concluído', 8, 7, NULL),
-(1200.00, '2025-08-02 13:00:00', 1, 'Concluído', 9, 8, NULL),
-(2000.00, '2025-09-04 14:00:00', 3, 'Pendente', 10, 9, NULL),
-(25.00, '2025-07-10 10:35:00', 2, 'Concluído', NULL, 1, 1),
-(30.00, '2025-07-11 14:05:00', 1, 'Concluído', 1, 2, 2),
-(15.00, '2025-07-12 11:50:00', 2, 'Concluído', NULL, 3, 3),
-(40.00, '2025-07-13 16:25:00', 3, 'Concluído', 3, 4, 4),
-(55.00, '2025-07-16 18:05:00', 1, 'Concluído', NULL, 6, 7);
+INSERT INTO Pagamentos (valor_pag, data_pag, status_pag, id_tipo_pagamento_fk , id_despesa_fk) VALUES
+(600.00, '2025-07-28 10:00:00', 'Concluído', 1, 1),
+(450.00, '2025-08-09 11:00:00', 'Pendente', 2, 2),
+(1500.00, '2025-07-19 15:00:00',  'Concluído', 3, 3),
+(1000.00, '2025-08-30 09:00:00', 'Pendente', 4, 4),
+(300.00, '2025-07-04 14:00:00',  'Reembolsado', 5, 1),
+(900.00, '2025-08-14 16:00:00',  'Concluído', 6, 5),
+(750.00, '2025-09-19 10:00:00',  'Pendente', 7, 6),
+(300.00, '2025-07-27 11:00:00',  'Concluído', 8, 7),
+(1200.00, '2025-08-02 13:00:00',  'Concluído', 9, 8),
+(2000.00, '2025-09-04 14:00:00',  'Pendente', 10, 9),
+(25.00, '2025-07-10 10:35:00', 'Concluído', 1, 1),
+(30.00, '2025-07-11 14:05:00',  'Concluído', 2, 2),
+(15.00, '2025-07-12 11:50:00',  'Concluído', 3, 3),
+(40.00, '2025-07-13 16:25:00',  'Concluído', 4, 4),
+(55.00, '2025-07-16 18:05:00',  'Concluído', 6, 7);
 
 INSERT INTO ItensVenda (quantidade_ive, preco_unitario_ive, id_venda_fk, id_prod_fk) VALUES
 (2, 8.00, 1, 2),

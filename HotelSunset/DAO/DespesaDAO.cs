@@ -29,7 +29,6 @@ namespace HotelSunset.DAO
                 query.Parameters.AddWithValue("@id", id);
 
                 reader = query.ExecuteReader();
-                // CORREÇÃO: Inicializa a despesa apenas se houver um registro
                 Despesas despesa = null;
 
                 if (reader.Read())
