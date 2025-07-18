@@ -128,6 +128,7 @@
     <Compile Include="DAO\HospedesDAO.cs" />
     <Compile Include="DAO\ProdutosDAO.cs" />
     <Compile Include="DAO\QuartoDAO.cs" />
+    <Compile Include="DAO\ReservasDAO.cs" />
     <Compile Include="DAO\ServicosDAO.cs" />
     <Compile Include="DAO\TipoQuartoDAO.cs" />
     <Compile Include="Models\Despesas.cs" />
