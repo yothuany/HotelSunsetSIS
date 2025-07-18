@@ -131,34 +131,32 @@
 
                     <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Produto:" Style="{StaticResource LabelStyle}"/>
-                        <ComboBox SelectedValue="{Binding ProdutoId}" IsEnabled="False">
-                            <ComboBoxItem Content="Água Mineral"/>
-                            <ComboBoxItem Content="Refrigerante Lata"/>
-                            <ComboBoxItem Content="Chocolate"/>
-                        </ComboBox>
+                        <ComboBox x:Name="cbProdutos"  DisplayMemberPath="nome_prod"
+SelectedValuePath="id_produto"
+SelectedValue="{Binding IdProduto}" />
                     </StackPanel>
 
                     <StackPanel Grid.Row="0" Grid.Column="1">
                         <TextBlock Text="Quantidade em Estoque:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="{Binding QuantidadeEstoque}" IsEnabled="False"/>
+                        <TextBox x:Name="txtQuantidade" Text="{Binding QuantidadeEstoque}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Data de Validade:" Style="{StaticResource LabelStyle}"/>
-                        <DatePicker SelectedDateFormat="Short" SelectedDate="{Binding DataValidade}" IsEnabled="False"/>
+                        <DatePicker x:Name="dtpValidade" SelectedDateFormat="Short" SelectedDate="{Binding DataValidade}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="1" Grid.Column="1">
                         <TextBlock Text="Lote:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="{Binding LoteEstoque}" IsEnabled="False"/>
+                        <TextBox x:Name="txtLote" Text="{Binding LoteEstoque}" IsEnabled="False"/>
                     </StackPanel>
 
                 </Grid>
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
-                    <Button Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30"/>
-                    <Button Content="Limpar" Style="{StaticResource ClearButton}" Height="30" Width="80"/>
-                    <Button Content="Editar" Style="{StaticResource EditButton}" Height="30" Width="80"/>
+                    <Button x:Name="btVoltar" Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30" Click="btVoltar_Click"/>
+                    <Button x:Name="btLimpar" Content="Limpar" Style="{StaticResource ClearButton}" Height="30" Width="80" Click="btLimpar_Click"/>
+                    <Button x:Name="btEditar" Content="Editar" Style="{StaticResource EditButton}" Height="30" Width="80" Click="btEditar_Click"/>
                 </StackPanel>
             </StackPanel>
         </Border>

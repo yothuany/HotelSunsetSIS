@@ -79,7 +79,7 @@ namespace HotelSunset
 
         private void EstoqueButton_Click(object sender, RoutedEventArgs e)
         {
-            EstoqueCadastrar estoque = new EstoqueCadastrar();
+            EstoqueListar estoque = new EstoqueListar();
             estoque.Show();
             this.Hide();
         }

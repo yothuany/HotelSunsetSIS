@@ -41,7 +41,6 @@ C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\CaixaCadastrar.
 C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\CaixaListar.g.cs
 C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\DespesaCadastrar.g.cs
 C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\DespesaListar.g.cs
-C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\EstoqueCadastrar.g.cs
 C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\EstoqueListar.g.cs
 C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\FuncionariosCadastrar.g.cs
 C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\FuncionariosListar.g.cs
@@ -106,7 +105,6 @@ C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\CaixaListar.bam
 C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\DespesaCadastrar.baml
 C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\DespesaConsultar.baml
 C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\DespesaListar.baml
-C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\EstoqueCadastrar.baml
 C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\EstoqueConsultar.baml
 C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\EstoqueListar.baml
 C:\Users\celes\Documents\HotelSunset\HotelSunset\obj\Debug\Views\FuncionarioConsultar.baml

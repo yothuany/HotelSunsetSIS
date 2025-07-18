@@ -141,14 +141,12 @@
             </StackPanel>
 
             <!-- Linha 3 de botões -->
-            <StackPanel Orientation="Horizontal">
-                <Button x:Name="CaixaButton" Style="{StaticResource MenuButtonStyle}" Content="Caixa" Click="CaixaButton_Click"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <!-- Removido Click -->
-                <Button x:Name="PagamentosButton" Style="{StaticResource MenuButtonStyle}" Content="Pagamentos" Click="PagamentosButton_Click"/>
                 <!-- Removido Click -->
-                <Button x:Name="DespesasButton" Style="{StaticResource MenuButtonStyle}" Content="Despesas" Click="DespesasButton_Click"/>
+                <Button x:Name="DespesasButton" Style="{StaticResource MenuButtonStyle}" Content="Despesas" Click="DespesasButton_Click" HorizontalAlignment="Center"/>
                 <!-- Removido Click -->
-                <Button x:Name="FuncionariosButton" Style="{StaticResource MenuButtonStyle}" Content="Funcionários" Click="FuncionariosButton_Click"/>
+                <Button x:Name="FuncionariosButton" Style="{StaticResource MenuButtonStyle}" Content="Funcionários" Click="FuncionariosButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                 <!-- Removido Click -->
             </StackPanel>
         </StackPanel>
