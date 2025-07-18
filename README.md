@@ -1,1 +1,10 @@
-ACONTECEU UNS IMPREVISTOS. PROFESSOR ME DA MAIS UM DIA, POR FAVOR JURO QUE EU TERMINO!!!!
+Despesa✅
+Funcionario✅ 
+Hospedes✅
+Produtos✅ 
+Quarto✅
+Servicos✅
+TipoQuarto✅
+Estoque
+Reservas
+Vendas
