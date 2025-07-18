@@ -137,12 +137,12 @@
 
                     <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Número do Quarto:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="{Binding NumeroQuarto}" IsEnabled="False"/>
+                        <TextBox x:Name="txtNumero" Text="{Binding NumeroQuarto}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="0" Grid.Column="1">
                         <TextBlock Text="Status:" Style="{StaticResource LabelStyle}"/>
-                        <ComboBox SelectedValue="{Binding StatusQuarto}" IsEnabled="False">
+                        <ComboBox x:Name="cbStatus" SelectedValue="{Binding Status}" IsEnabled="False">
                             <ComboBoxItem Content="Disponível"/>
                             <ComboBoxItem Content="Ocupado"/>
                             <ComboBoxItem Content="Manutenção"/>
@@ -152,22 +152,20 @@
 
                     <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Andar:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="{Binding AndarQuarto}" IsEnabled="False"/>
+                        <TextBox x:Name="txtAndar" Text="{Binding AndarQuarto}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="1" Grid.Column="1">
                         <TextBlock Text="Capacidade:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="{Binding CapacidadeQuarto}" IsEnabled="False"/>
+                        <TextBox x:Name="txtCapacidade" Text="{Binding CapacidadeQuarto}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="2" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Tipo de Quarto:" Style="{StaticResource LabelStyle}"/>
-                        <ComboBox SelectedValue="{Binding TipoQuartoId}" IsEnabled="False">
-                            <ComboBoxItem Content="Standard"/>
-                            <ComboBoxItem Content="Deluxe"/>
-                            <ComboBoxItem Content="Suíte"/>
-                            <ComboBoxItem Content="Presidencial"/>
-                        </ComboBox>
+                        <ComboBox x:Name="cbTiposQuarto"
+  DisplayMemberPath="nome_tip"
+  SelectedValuePath="id_tipo_quarto"
+  SelectedValue="{Binding IdTipoQuarto}" />
                     </StackPanel>
 
                     <StackPanel Grid.Row="2" Grid.Column="1">
@@ -175,9 +173,9 @@
                 </Grid>
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
-                    <Button Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30"/>
-                    <Button Content="Limpar" Style="{StaticResource ClearButton}" Height="30" Width="80"/>
-                    <Button Content="Editar" Style="{StaticResource EditButton}" Height="30" Width="80"/>
+                    <Button x:Name="btVoltar" Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30" Click="btVoltar_Click"/>
+                    <Button x:Name="btLimpar" Content="Limpar" Style="{StaticResource ClearButton}" Height="30" Width="80" Click="btLimpar_Click"/>
+                    <Button x:Name="btEditar" Content="Editar" Style="{StaticResource EditButton}" Height="30" Width="80" Click="btEditar_Click"/>
                 </StackPanel>
             </StackPanel>
         </Border>

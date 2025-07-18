@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using HotelSunset.DAO;
 using HotelSunset.Models;
 using HotelSunset.Ultilitarios;
 using MySql.Data.MySqlClient;
@@ -31,38 +32,10 @@ namespace HotelSunset.Views
 
         private void PreencherTiposQuarto()
         {
-            Conexao conn = null; 
-            MySqlDataReader reader = null; 
-            try
-            {
-                cbTiposQuarto.Items.Clear();
-
-                conn = new Conexao(); 
-                var query = conn.Query();
-                query.CommandText = "SELECT nome_tip FROM TiposQuarto";
-
-                reader = query.ExecuteReader();
-
-                while (reader.Read())
-                {
-                    cbTiposQuarto.Items.Add(reader.GetString("nome_tip"));
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Erro ao preencher tipos de quarto: {ex.Message}", "Erro", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-            finally
-            {
-                if (reader != null && !reader.IsClosed)
-                {
-                    reader.Close();
-                }
-                if (conn != null)
-                {
-                    conn.Close();
-                }
-            }
+            var dao = new TipoQuartoDAO();
+            cbTiposQuarto.ItemsSource = dao.List(); 
+            cbTiposQuarto.DisplayMemberPath = "Nome"; 
+            cbTiposQuarto.SelectedValuePath = "Id"; 
         }
 
         private void btVoltar_Click(object sender, RoutedEventArgs e)
@@ -116,9 +89,9 @@ namespace HotelSunset.Views
                 return;
             }
 
-            if (cbTiposQuarto.SelectedValue != null)
+            if (cbTiposQuarto.SelectedValue != null && int.TryParse(cbTiposQuarto.SelectedValue.ToString(), out int tipoId))
             {
-                quarto.TipoQuartoNome = (int)cbTiposQuarto.SelectedValue;
+                quarto.IdTipoQuarto = tipoId;
             }
             else
             {
@@ -126,21 +99,21 @@ namespace HotelSunset.Views
                 return;
             }
 
-           // var dao = new QuartoDAO();
-           // dao.Insert(quarto);
+
+            var dao = new QuartosDAO();
+            dao.Insert(quarto);
 
             MessageBox.Show("Quarto cadastrado com sucesso!", "Confirmação", MessageBoxButton.OK, MessageBoxImage.Information);
 
-            this.Close();
         }
 
         private void btLimpar_Click(object sender, RoutedEventArgs e)
         {
             txtNumero.Clear();
-            cbStatus.SelectedIndex = -1; 
+            cbStatus.SelectedIndex = -1;
             txtAndar.Clear();
             txtCapacidade.Clear();
-            cbTiposQuarto.SelectedIndex = -1; 
+            cbTiposQuarto.SelectedIndex = -1;
         }
     }
 }

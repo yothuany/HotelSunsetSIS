@@ -44,7 +44,7 @@ namespace HotelSunset
 
         private void QuartosButton_Click(object sender, RoutedEventArgs e)
         {
-            QuartosCadastrar quartos = new QuartosCadastrar();
+            QuartosListar quartos = new QuartosListar();
             quartos.Show();
             this.Hide();
         }
@@ -58,7 +58,7 @@ namespace HotelSunset
 
         private void ServicosButton_Click(object sender, RoutedEventArgs e)
         {
-            ServicosCadastrar servicos = new ServicosCadastrar();
+            ServicosListar servicos = new ServicosListar();
             servicos.Show();
             this.Hide();
         }

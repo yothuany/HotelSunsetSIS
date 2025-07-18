@@ -13,7 +13,8 @@ namespace HotelSunset.Models
         public string Status { get; set; }
         public int Andar { get; set; }
         public int Capacidade { get; set; }
-        public int TipoQuartoNome { get; set; }
+        public int IdTipoQuarto { get; set; }
+        public TiposQuarto TipoQuarto { get; set; } 
 
         public Quartos()
         {
@@ -27,7 +28,7 @@ namespace HotelSunset.Models
             Status = status;
             Andar = andar;
             Capacidade = capacidade;
-            TipoQuartoNome = tipoQuarto;
+            IdTipoQuarto = tipoQuarto;
         }
     }
 }

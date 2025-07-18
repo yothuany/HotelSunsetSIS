@@ -148,12 +148,11 @@
 
                     <StackPanel Grid.Row="2" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Tipo de Quarto:" Style="{StaticResource LabelStyle}"/>
-                        <ComboBox x:Name="cbTiposQuarto" SelectedValue="{Binding TipoQuartoId}">
-                            <ComboBoxItem Content="Standard"/>
-                            <ComboBoxItem Content="Deluxe"/>
-                            <ComboBoxItem Content="Suíte"/>
-                            <ComboBoxItem Content="Presidencial"/>
-                        </ComboBox>
+                        <ComboBox x:Name="cbTiposQuarto"
+                          DisplayMemberPath="nome_tip"
+                          SelectedValuePath="id_tipo_quarto"
+                          SelectedValue="{Binding IdTipoQuarto}" />
+
                     </StackPanel>
 
                     <StackPanel Grid.Row="2" Grid.Column="1">
