@@ -5,6 +5,6 @@ Produtos✅
 Quarto✅
 Servicos✅
 TipoQuarto✅
-Estoque X
+Estoque ✅
 Reservas X
 Vendas X
