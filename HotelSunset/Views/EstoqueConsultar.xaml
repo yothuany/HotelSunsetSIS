@@ -131,7 +131,7 @@
 
                     <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Produto:" Style="{StaticResource LabelStyle}"/>
-                        <ComboBox x:Name="cbProdutos"  DisplayMemberPath="nome_prod"
+                        <ComboBox x:Name="cbProdutos"  IsEnabled="False"  DisplayMemberPath="nome_prod"
 SelectedValuePath="id_produto"
 SelectedValue="{Binding IdProduto}" />
                     </StackPanel>

@@ -21,17 +21,12 @@ namespace HotelSunset.DAO
         public Estoque GetById(int id)
         {
             MySqlDataReader reader = null;
-
             try
             {
                 var query = conn.Query();
-                query.CommandText = @"
-                    SELECT e.id_estoque, e.quantidade_est, e.data_validade_est, e.lote_est,
-                           e.id_produto_fk, p.nome_pro
-                    FROM Estoque e
-                    INNER JOIN Produtos p ON e.id_produto_fk = p.id_produto
-                    WHERE e.id_estoque = @id";
-
+                query.CommandText = @"SELECT id_estoque, quantidade_est, data_validade_est, lote_est, id_produto_fk
+                                      FROM Estoque
+                                      WHERE id_estoque = @id";
                 query.Parameters.AddWithValue("@id", id);
 
                 reader = query.ExecuteReader();
@@ -43,15 +38,9 @@ namespace HotelSunset.DAO
                     {
                         Id = reader.GetInt32("id_estoque"),
                         Quantidade = reader.GetInt32("quantidade_est"),
-                        DataValidade = reader.IsDBNull(reader.GetOrdinal("data_validade_est"))
-                            ? (DateTime?)null
-                            : reader.GetDateTime("data_validade_est"),
+                        DataValidade = reader.IsDBNull(reader.GetOrdinal("data_validade_est")) ? (DateTime?)null : reader.GetDateTime("data_validade_est"),
                         Lote = reader.GetString("lote_est"),
-                        ProdutoId = reader.GetInt32("id_produto_fk"),
-                        Produto = new Produtos
-                        {
-                            Nome = reader.GetString("nome_pro")
-                        }
+                        IdProduto = reader.GetInt32("id_produto_fk")
                     };
                 }
 
@@ -59,7 +48,7 @@ namespace HotelSunset.DAO
             }
             catch (Exception ex)
             {
-                throw new Exception($"Erro ao buscar estoque por ID: {ex.Message}", ex);
+                throw new Exception($"Erro ao buscar item de estoque por ID: {ex.Message}", ex);
             }
             finally
             {
@@ -78,27 +67,24 @@ namespace HotelSunset.DAO
                 var query = conn.Query();
 
                 query.CommandText = @"
-                    SELECT e.id_estoque, e.quantidade_est, e.data_validade_est, e.lote_est,
-                           e.id_produto_fk, p.nome_pro
+                    SELECT e.id_estoque, e.quantidade_est, e.data_validade_est, e.lote_est, e.id_produto_fk,
+                           p.nome_pro -- <<-- CORRIGIDO AQUI!
                     FROM Estoque e
-                    INNER JOIN Produtos p ON e.id_produto_fk = p.id_produto";
+                    JOIN Produtos p ON p.id_produto = e.id_produto_fk";
 
                 reader = query.ExecuteReader();
-
                 while (reader.Read())
                 {
                     lista.Add(new Estoque()
                     {
                         Id = reader.GetInt32("id_estoque"),
                         Quantidade = reader.GetInt32("quantidade_est"),
-                        DataValidade = reader.IsDBNull(reader.GetOrdinal("data_validade_est"))
-                            ? (DateTime?)null
-                            : reader.GetDateTime("data_validade_est"),
+                        DataValidade = reader.IsDBNull(reader.GetOrdinal("data_validade_est")) ? (DateTime?)null : reader.GetDateTime("data_validade_est"),
                         Lote = reader.GetString("lote_est"),
-                        ProdutoId = reader.GetInt32("id_produto_fk"),
-                        Produto = new Produtos
+                        IdProduto = reader.GetInt32("id_produto_fk"),
+                        Produto = new Models.Produtos 
                         {
-                            Nome = reader.GetString("nome_pro")
+                            Nome = reader.GetString("nome_pro") 
                         }
                     });
                 }
@@ -107,7 +93,7 @@ namespace HotelSunset.DAO
             }
             catch (Exception ex)
             {
-                throw new Exception($"Erro ao listar estoques: {ex.Message}", ex);
+                throw new Exception($"Erro ao listar itens de estoque: {ex.Message}", ex);
             }
             finally
             {
@@ -116,33 +102,59 @@ namespace HotelSunset.DAO
             }
         }
 
+        public void Insert(Estoque estoque)
+        {
+            try
+            {
+                var query = conn.Query();
+                query.CommandText = @"INSERT INTO Estoque (quantidade_est, data_validade_est, lote_est, id_produto_fk)
+                                      VALUES (@quantidade, @dataValidade, @lote, @idProdutoFk)";
+
+                query.Parameters.AddWithValue("@quantidade", estoque.Quantidade);
+                query.Parameters.AddWithValue("@dataValidade", estoque.DataValidade.HasValue ? (object)estoque.DataValidade.Value : DBNull.Value);
+                query.Parameters.AddWithValue("@lote", estoque.Lote);
+                query.Parameters.AddWithValue("@idProdutoFk", estoque.IdProduto);
+
+                int result = query.ExecuteNonQuery();
+
+                if (result == 0)
+                    throw new Exception("O item de estoque não foi inserido.");
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Erro ao inserir item de estoque: {ex.Message}", ex);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
         public void Update(Estoque estoque)
         {
             try
             {
                 var query = conn.Query();
-                query.CommandText = @"
-                    UPDATE Estoque 
-                    SET quantidade_est = @quantidade,
-                        data_validade_est = @validade,
-                        lote_est = @lote,
-                        id_produto_fk = @produto
-                    WHERE id_estoque = @id";
+                query.CommandText = @"UPDATE Estoque
+                                      SET quantidade_est = @quantidade,
+                                          data_validade_est = @dataValidade,
+                                          lote_est = @lote,
+                                          id_produto_fk = @idProdutoFk
+                                      WHERE id_estoque = @id";
 
                 query.Parameters.AddWithValue("@quantidade", estoque.Quantidade);
-                query.Parameters.AddWithValue("@validade", estoque.DataValidade?.ToString("yyyy-MM-dd"));
+                query.Parameters.AddWithValue("@dataValidade", estoque.DataValidade.HasValue ? (object)estoque.DataValidade.Value : DBNull.Value);
                 query.Parameters.AddWithValue("@lote", estoque.Lote);
-                query.Parameters.AddWithValue("@produto", estoque.ProdutoId);
+                query.Parameters.AddWithValue("@idProdutoFk", estoque.IdProduto);
                 query.Parameters.AddWithValue("@id", estoque.Id);
 
                 int result = query.ExecuteNonQuery();
 
                 if (result == 0)
-                    throw new Exception("O estoque não foi atualizado.");
+                    throw new Exception("O item de estoque não foi atualizado.");
             }
             catch (Exception ex)
             {
-                throw new Exception($"Erro ao atualizar estoque: {ex.Message}", ex);
+                throw new Exception($"Erro ao atualizar item de estoque: {ex.Message}", ex);
             }
             finally
             {
@@ -161,40 +173,11 @@ namespace HotelSunset.DAO
                 int result = query.ExecuteNonQuery();
 
                 if (result == 0)
-                    throw new Exception("O estoque não foi excluído.");
+                    throw new Exception("O item de estoque não foi excluído.");
             }
             catch (Exception ex)
             {
-                throw new Exception($"Erro ao excluir estoque: {ex.Message}", ex);
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        // (Opcional) método para atualizar quantidade sem criar novo
-        public void AtualizarQuantidadeSeExistir(int produtoId, int novaQuantidade)
-        {
-            try
-            {
-                var query = conn.Query();
-                query.CommandText = @"
-                    UPDATE Estoque 
-                    SET quantidade_est = @quantidade 
-                    WHERE id_produto_fk = @produto";
-
-                query.Parameters.AddWithValue("@quantidade", novaQuantidade);
-                query.Parameters.AddWithValue("@produto", produtoId);
-
-                int result = query.ExecuteNonQuery();
-
-                if (result == 0)
-                    throw new Exception("Produto não encontrado no estoque para atualizar.");
-            }
-            catch (Exception ex)
-            {
-                throw new Exception($"Erro ao atualizar a quantidade: {ex.Message}", ex);
+                throw new Exception($"Erro ao excluir item de estoque: {ex.Message}", ex);
             }
             finally
             {

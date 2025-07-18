@@ -13,7 +13,7 @@ namespace HotelSunset.Models
         public decimal ValorTotal { get; set; }
         public int FuncionarioId { get; set; }
         public int TipoPagamentoId { get; set; }
-        public int? ReservaId { get; set; } // Pode ser nulo se a venda não estiver associada a uma reserva
+        public int? ReservaId { get; set; } 
 
         public Vendas()
         {

@@ -130,12 +130,10 @@
     <Compile Include="DAO\QuartoDAO.cs" />
     <Compile Include="DAO\ServicosDAO.cs" />
     <Compile Include="DAO\TipoQuartoDAO.cs" />
-    <Compile Include="Models\Caixa.cs" />
     <Compile Include="Models\Despesas.cs" />
     <Compile Include="Models\Estoque.cs" />
     <Compile Include="Models\Funcionarios.cs" />
     <Compile Include="Models\Hospedes.cs" />
-    <Compile Include="Models\Pagamentos.cs" />
     <Compile Include="Models\Produtos.cs" />
     <Compile Include="Models\Quartos.cs" />
     <Compile Include="Models\Reservas.cs" />
