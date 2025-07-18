@@ -135,14 +135,14 @@
                        CanUserAddRows="False"
                       d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="FuncionariosDataGrid_SelectionChanged">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="ID" Binding="{Binding IdFuncionario}" Width="Auto"/>
-                    <DataGridTextColumn Header="Nome" Binding="{Binding NomeFuncionario}" Width="*"/>
-                    <DataGridTextColumn Header="CPF" Binding="{Binding CpfFuncionario}" Width="*"/>
-                    <DataGridTextColumn Header="Data Nasc." Binding="{Binding DataNascimentoFuncionario, StringFormat='dd/MM/yyyy'}" Width="*"/>
-                    <DataGridTextColumn Header="RG" Binding="{Binding RgFuncionario}" Width="*"/>
-                    <DataGridTextColumn Header="Salário" Binding="{Binding SalarioFuncionario, StringFormat=C2}" Width="Auto"/>
-                    <DataGridTextColumn Header="Email" Binding="{Binding EmailFuncionario}" Width="*"/>
-                    <DataGridTextColumn Header="Telefone" Binding="{Binding TelefoneFuncionario}" Width="*"/>
+                    <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="Auto"/>
+                    <DataGridTextColumn Header="Nome" Binding="{Binding Nome}" Width="*"/>
+                    <DataGridTextColumn Header="CPF" Binding="{Binding CPF}" Width="*"/>
+                    <DataGridTextColumn Header="Data Nasc." Binding="{Binding DataNascimento, StringFormat='dd/MM/yyyy'}" Width="*"/>
+                    <DataGridTextColumn Header="RG" Binding="{Binding RG}" Width="*"/>
+                    <DataGridTextColumn Header="Salário" Binding="{Binding Salario, StringFormat=C2}" Width="Auto"/>
+                    <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="*"/>
+                    <DataGridTextColumn Header="Telefone" Binding="{Binding Telefone}" Width="*"/>
                     <DataGridTemplateColumn Width="Auto" Header="Ações">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>

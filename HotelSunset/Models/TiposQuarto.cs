@@ -9,8 +9,8 @@ namespace HotelSunset.Models
     public class TiposQuarto
     {
         public int Id { get; set; }
-        public string NomeTipo { get; set; }
-        public string DescricaoTipo { get; set; }
+        public string Nome{ get; set; }
+        public string Descricao { get; set; }
 
         public TiposQuarto()
         {
@@ -20,8 +20,8 @@ namespace HotelSunset.Models
         public TiposQuarto(int id, string nomeTipo, string descricaoTipo)
         {
             Id = id;
-            NomeTipo = nomeTipo;
-            DescricaoTipo = descricaoTipo;
+            Nome = nomeTipo;
+            Descricao = descricaoTipo;
         }
     }
 }

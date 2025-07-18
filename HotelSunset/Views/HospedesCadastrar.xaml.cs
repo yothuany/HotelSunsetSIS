@@ -16,9 +16,6 @@ using HotelSunset.Models;
 
 namespace HotelSunset.Views
 {
-    /// <summary>
-    /// Lógica interna para HospedesCadastrar.xaml
-    /// </summary>
     public partial class HospedesCadastrar : Window
     {
         public HospedesCadastrar()

@@ -81,7 +81,6 @@ namespace HotelSunset.Views
 
             MessageBox.Show("Funcionário cadastrado com sucesso!", "Confirmação", MessageBoxButton.OK, MessageBoxImage.Information);
 
-            this.Close();
         }
 
         private void btLimpar_Click(object sender, RoutedEventArgs e)
