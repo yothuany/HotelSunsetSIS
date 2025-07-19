@@ -16,9 +16,7 @@ using HotelSunset.Models;
 
 namespace HotelSunset.Views
 {
-    /// <summary>
-    /// Lógica interna para QuartosConsultar.xaml
-    /// </summary>
+
     public partial class QuartosConsultar : Window
     {
         private int identificadorQuarto;
@@ -27,6 +25,7 @@ namespace HotelSunset.Views
         {
             InitializeComponent();
             PreencherTiposQuarto();
+            cbTiposQuarto.SelectedIndex = -1;
 
             var dao = new QuartosDAO();
             Quartos quartoSelected = null;
@@ -38,7 +37,6 @@ namespace HotelSunset.Views
 
                 if (quartoSelected != null)
                 {
-                    // Exibir dados (opcional)
                     MessageBox.Show(
                         $"ID: {quartoSelected.Id}\n" +
                         $"Número: {quartoSelected.Numero}\n" +
@@ -51,13 +49,11 @@ namespace HotelSunset.Views
                         MessageBoxImage.Information
                     );
 
-                    // Preencher campos do formulário
                     txtNumero.Text = quartoSelected.Numero;
                     txtAndar.Text = quartoSelected.Andar.ToString();
                     txtCapacidade.Text = quartoSelected.Capacidade.ToString();
                     cbStatus.SelectedValue = quartoSelected.Status;
 
-                    // Se você tiver um ComboBox para TipoQuarto
                     cbTiposQuarto.SelectedValue = quartoSelected.IdTipoQuarto;
 
                     SetFormEnabledState(false);

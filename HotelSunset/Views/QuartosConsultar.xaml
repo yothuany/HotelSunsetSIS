@@ -142,7 +142,7 @@
 
                     <StackPanel Grid.Row="0" Grid.Column="1">
                         <TextBlock Text="Status:" Style="{StaticResource LabelStyle}"/>
-                        <ComboBox x:Name="cbStatus" SelectedValue="{Binding Status}" IsEnabled="False">
+                        <ComboBox x:Name="cbStatus"  SelectedValue="{Binding Status}" IsEnabled="False">
                             <ComboBoxItem Content="Disponível"/>
                             <ComboBoxItem Content="Ocupado"/>
                             <ComboBoxItem Content="Manutenção"/>

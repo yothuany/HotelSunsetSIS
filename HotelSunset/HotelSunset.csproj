@@ -131,6 +131,7 @@
     <Compile Include="DAO\ReservasDAO.cs" />
     <Compile Include="DAO\ServicosDAO.cs" />
     <Compile Include="DAO\TipoQuartoDAO.cs" />
+    <Compile Include="DAO\TiposPagamentoDAO.cs" />
     <Compile Include="Models\Despesas.cs" />
     <Compile Include="Models\Estoque.cs" />
     <Compile Include="Models\Funcionarios.cs" />
@@ -139,6 +140,7 @@
     <Compile Include="Models\Quartos.cs" />
     <Compile Include="Models\Reservas.cs" />
     <Compile Include="Models\Servicos.cs" />
+    <Compile Include="Models\TipoPagamento.cs" />
     <Compile Include="Models\TiposQuarto.cs" />
     <Compile Include="Models\Vendas.cs" />
     <Compile Include="Ultilitarios\Conexao.cs" />

@@ -28,11 +28,9 @@ namespace HotelSunset
 
         private void ReservaButton_Click(object sender, RoutedEventArgs e)
         {
-            ReservasListar reservasWindow = new ReservasListar();
-
-            reservasWindow.Show();
-
-            this.Hide();
+            ReservasListar listarReservasWindow = new ReservasListar();
+            listarReservasWindow.Show();
+            this.Close();
         }
 
         private void HospedesButton_Click(object sender, RoutedEventArgs e)

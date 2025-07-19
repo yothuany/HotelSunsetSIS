@@ -120,16 +120,16 @@
 
                     <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Hóspede:" Style="{StaticResource LabelStyle}"/>
-                        <ComboBox DisplayMemberPath="NomeCompleto" SelectedValuePath="Id" SelectedValue="{Binding HospedeId}" IsEnabled="False">
-                            <ComboBoxItem Content="João Silva (CPF: 111.111.111-11)"/>
-                            <ComboBoxItem Content="Maria Oliveira (CPF: 222.222.222-22)"/>
-                            <ComboBoxItem Content="Carlos Souza (CPF: 333.333.333-33)"/>
+                        <ComboBox x:Name="cbHospedes"  DisplayMemberPath="nome_hos"
+ SelectedValuePath="id_hospede" SelectedValue="{Binding IdHospede}" IsEnabled="False">
+                           
                         </ComboBox>
                     </StackPanel>
 
                     <StackPanel Grid.Row="0" Grid.Column="1">
                         <TextBlock Text="Quarto:" Style="{StaticResource LabelStyle}"/>
-                        <ComboBox DisplayMemberPath="NumeroTipoStatus" SelectedValuePath="Id" SelectedValue="{Binding QuartoId}" IsEnabled="False">
+                        <ComboBox x:Name="cbQuartos"  DisplayMemberPath="nome_qua"
+ SelectedValuePath="id_quarto" SelectedValue="{Binding IdQuarto}" IsEnabled="False">
                             <ComboBoxItem Content="101 (Standard - Disponível)"/>
                             <ComboBoxItem Content="102 (Deluxe - Ocupado)"/>
                             <ComboBoxItem Content="201 (Suíte - Manutenção)"/>
@@ -138,27 +138,27 @@
 
                     <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Check-in:" Style="{StaticResource LabelStyle}"/>
-                        <DatePicker SelectedDateFormat="Short" SelectedDate="{Binding DataCheckin}" IsEnabled="False"/>
+                        <DatePicker x:Name="dtpCheckIn" SelectedDateFormat="Short" SelectedDate="{Binding DataCheckin}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="1" Grid.Column="1">
                         <TextBlock Text="Check-out:" Style="{StaticResource LabelStyle}"/>
-                        <DatePicker SelectedDateFormat="Short" SelectedDate="{Binding DataCheckout}" IsEnabled="False"/>
+                        <DatePicker x:Name="dtpCheckOut" SelectedDateFormat="Short" SelectedDate="{Binding DataCheckout}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="2" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Nº Hóspedes:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="{Binding NumeroHospedes}" IsEnabled="False"/>
+                        <TextBox x:Name="txtNumeroHospedes" Text="{Binding NumeroHospedes}" IsEnabled="False"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="2" Grid.Column="1">
                         <TextBlock Text="Valor Total:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox Text="0.00" IsEnabled="False" />
+                        <TextBox x:Name="txtValorTotal" Text="0.00" IsEnabled="False" />
                     </StackPanel>
 
                     <StackPanel Grid.Row="3" Grid.Column="0" Margin="0,0,10,0">
                         <TextBlock Text="Status:" Style="{StaticResource LabelStyle}"/>
-                        <ComboBox SelectedValue="{Binding StatusReserva}" IsEnabled="False">
+                        <ComboBox x:Name="cbStatus" SelectedValue="{Binding Status}" IsEnabled="False">
                             <ComboBoxItem Content="Pendente"/>
                             <ComboBoxItem Content="Confirmada"/>
                             <ComboBoxItem Content="Cancelada"/>
@@ -167,23 +167,21 @@
 
                     <StackPanel Grid.Row="3" Grid.Column="1">
                         <TextBlock Text="Tipo de Pagamento:" Style="{StaticResource LabelStyle}"/>
-                        <ComboBox DisplayMemberPath="Nome" SelectedValuePath="Id" SelectedValue="{Binding TipoPagamentoId}" IsEnabled="False">
-                            <ComboBoxItem Content="Cartão de Crédito"/>
-                            <ComboBoxItem Content="Dinheiro"/>
-                            <ComboBoxItem Content="Pix"/>
+                        <ComboBox x:Name="cbTiposPagamento" DisplayMemberPath="Nome" SelectedValuePath="Id" SelectedValue="{Binding TipoPagamentoId}" IsEnabled="False">
+                            
                         </ComboBox>
                     </StackPanel>
 
                     <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Margin="0,10,0,0">
                         <TextBlock Text="Observações:" Style="{StaticResource LabelStyle}"/>
-                        <TextBox TextWrapping="Wrap" AcceptsReturn="True" Height="62" Width="340" HorizontalAlignment="Left" IsEnabled="False"/>
+                        <TextBox x:Name="txtObservacoes" TextWrapping="Wrap" AcceptsReturn="True" Height="62" Width="340" HorizontalAlignment="Left" IsEnabled="False"/>
                     </StackPanel>
                 </Grid>
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,-15,0,0">
-                    <Button Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30"/>
-                    <Button Content="Limpar" Style="{StaticResource ClearButton}" Height="30" Width="80"/>
-                    <Button Content="Salvar" Style="{StaticResource EditButton}" Height="30" Width="80"/>
+                    <Button x:Name="btVoltar" Content="Voltar" Style="{StaticResource BackButton}" Width="80" Height="30" Click="btVoltar_Click"/>
+                    <Button x:Name="btLimpar" Content="Limpar" Style="{StaticResource ClearButton}" Height="30" Width="80" Click="btLimpar_Click"/>
+                    <Button x:Name="btEditar" Content="Salvar" Style="{StaticResource EditButton}" Height="30" Width="80" Click="btEditar_Click" />
                 </StackPanel>
             </StackPanel>
         </Border>

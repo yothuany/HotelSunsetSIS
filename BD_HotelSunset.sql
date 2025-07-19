@@ -17,6 +17,12 @@ CREATE TABLE Quartos(
     FOREIGN KEY(id_tipo_quarto_fk) REFERENCES TiposQuarto(id_tipo_quarto)
 );
 
+CREATE TABLE TiposPagamento(
+    id_tipo_pagamento INT PRIMARY KEY AUTO_INCREMENT,
+    nome_tpg VARCHAR(50) NOT NULL UNIQUE,
+    descricao_tpg TEXT
+);
+
 CREATE TABLE Hospedes(
     id_hospede INT PRIMARY KEY AUTO_INCREMENT,
     nome_hos VARCHAR(100) NOT NULL,
@@ -30,14 +36,16 @@ CREATE TABLE Reservas(
     id_reserva INT PRIMARY KEY AUTO_INCREMENT,
     data_checkin_res DATETIME NOT NULL,
     data_checkout_res DATETIME NOT NULL,
-    status_res VARCHAR(50) DEFAULT 'Pendente', # 'Pendente', 'Confirmada', 'Cancelada'
+    status_res VARCHAR(50), # 'Pendente', 'Confirmada', 'Cancelada'
     valor_total_res DECIMAL(10, 2),
     numero_hospedes_res INT,
     observacoes_res TEXT,
+    id_tipo_pagamento_fk INT NOT NULL,
     id_hospede_fk INT NOT NULL,
     id_quarto_fk INT NOT NULL,
     FOREIGN KEY(id_hospede_fk) REFERENCES Hospedes(id_hospede),
-    FOREIGN KEY(id_quarto_fk) REFERENCES Quartos(id_quarto)
+    FOREIGN KEY(id_quarto_fk) REFERENCES Quartos(id_quarto),
+	FOREIGN KEY(id_tipo_pagamento_fk) REFERENCES TiposPagamento(id_tipo_pagamento)
 );
 
 CREATE TABLE Servicos(
@@ -80,11 +88,7 @@ CREATE TABLE Caixa(
     FOREIGN KEY(id_funcionario_fk) REFERENCES Funcionarios(id_funcionario)
 );
 
-CREATE TABLE TiposPagamento(
-    id_tipo_pagamento INT PRIMARY KEY AUTO_INCREMENT,
-    nome_tpg VARCHAR(50) NOT NULL UNIQUE,
-    descricao_tpg TEXT
-);
+
 
 CREATE TABLE Despesas (
     id_despesa INT PRIMARY KEY AUTO_INCREMENT,
@@ -157,6 +161,19 @@ INSERT INTO TiposQuarto (nome_tip, descricao_tip) VALUES
 ('Conectado', 'Dois quartos Standard com porta de conexão interna.'),
 ('Econômico', 'Quarto compacto e funcional para estadias curtas.');
 
+
+INSERT INTO TiposPagamento (nome_tpg, descricao_tpg) VALUES
+('Cartão de Crédito', 'Pagamento via cartão de crédito (Visa, Mastercard, etc.)'),
+('Dinheiro', 'Pagamento em espécie'),
+('Pix', 'Pagamento instantâneo via Pix'),
+('Cartão de Débito', 'Pagamento via cartão de débito'),
+('Transferência Bancária', 'Pagamento via transferência eletrônica'),
+('Boleto Bancário', 'Pagamento via boleto bancário'),
+('Cheque', 'Pagamento via cheque (sujeito a aprovação)'),
+('Voucher', 'Pagamento via voucher ou cupom'),
+('Débito Automático', 'Pagamento programado para débito em conta'),
+('Criptomoeda', 'Pagamento via criptomoedas (ex: Bitcoin, Ethereum)');
+
 INSERT INTO Quartos (numero_qua, status_qua, andar_qua, capacidade_qua, id_tipo_quarto_fk) VALUES
 ('101', 'Disponível', 1, 2, 1),
 ('102', 'Ocupado', 1, 2, 1),
@@ -189,17 +206,17 @@ INSERT INTO Hospedes (nome_hos, cpf_hos, data_nascimento_hos, email_hos, telefon
 ('Lucas Barbosa', '131.131.131-13', '1991-04-22', 'lucas.b@email.com', '98765-1234');
 
 INSERT INTO Reservas (data_checkin_res, data_checkout_res, status_res, valor_total_res, 
-numero_hospedes_res, observacoes_res, id_hospede_fk, id_quarto_fk) VALUES
-('2025-08-01', '2025-08-05', 'Confirmada', 600.00, 10, 'Cama de casal', 1, 1),
-('2025-08-10', '2025-08-12', 'Pendente', 450.00, 9, 'Silencioso', 2, 4),
-('2025-07-20', '2025-07-25', 'Confirmada', 1500.00, 8, 'Vista para o mar', 3, 6),
-('2025-09-01', '2025-09-03', 'Confirmada', 1000.00, 7, 'Com banheira', 4, 7),
-('2025-07-05', '2025-07-07', 'Cancelada', 300.00, 1, 'Problema de saúde', 5, 10),
-('2025-08-15', '2025-08-18', 'Confirmada', 900.00, 2, 'Quarto para não fumantes', 6, 11),
-('2025-09-20', '2025-09-22', 'Pendente', 750.00, 6, 'Próximo ao elevador', 7, 12),
-('2025-07-28', '2025-07-30', 'Confirmada', 300.00, 5, 'Check-in tardio', 8, 1),
-('2025-08-03', '2025-08-07', 'Confirmada', 1200.00, 3, 'Berço extra', 9, 4),
-('2025-09-05', '2025-09-10', 'Pendente', 2000.00, 4, 'Andar alto', 10, 15);
+numero_hospedes_res, observacoes_res, id_hospede_fk, id_quarto_fk, id_tipo_pagamento_fk) VALUES
+('2025-08-01', '2025-08-05', 'Confirmada', 600.00, 10, 'Cama de casal', 1, 1,2),
+('2025-08-10', '2025-08-12', 'Pendente', 450.00, 9, 'Silencioso', 2, 4, 2),
+('2025-07-20', '2025-07-25', 'Confirmada', 1500.00, 8, 'Vista para o mar', 3, 6, 1),
+('2025-09-01', '2025-09-03', 'Confirmada', 1000.00, 7, 'Com banheira', 4, 7,  3),
+('2025-07-05', '2025-07-07', 'Cancelada', 300.00, 1, 'Problema de saúde', 5, 10, 4),
+('2025-08-15', '2025-08-18', 'Confirmada', 900.00, 2, 'Quarto para não fumantes', 6, 11, 5),
+('2025-09-20', '2025-09-22', 'Pendente', 750.00, 6, 'Próximo ao elevador', 7, 12, 9),
+('2025-07-28', '2025-07-30', 'Confirmada', 300.00, 5, 'Check-in tardio', 8, 1, 10),
+('2025-08-03', '2025-08-07', 'Confirmada', 1200.00, 3, 'Berço extra', 9, 4, 1),
+('2025-09-05', '2025-09-10', 'Pendente', 2000.00, 4, 'Andar alto', 10, 15, 8);
 
 
 INSERT INTO Servicos (nome_ser, descricao_ser, preco_ser) VALUES
@@ -286,18 +303,6 @@ INSERT INTO Estoque (quantidade_est, data_validade_est, lote_est, id_produto_fk)
 (15, '2027-03-10', 'SUCO008', 8),
 (60, '2026-06-05', 'CEREAL009', 9),
 (10, '2027-05-01', 'VINHO010', 10);
-
-INSERT INTO TiposPagamento (nome_tpg, descricao_tpg) VALUES
-('Cartão de Crédito', 'Pagamento via cartão de crédito (Visa, Mastercard, etc.)'),
-('Dinheiro', 'Pagamento em espécie'),
-('Pix', 'Pagamento instantâneo via Pix'),
-('Cartão de Débito', 'Pagamento via cartão de débito'),
-('Transferência Bancária', 'Pagamento via transferência eletrônica'),
-('Boleto Bancário', 'Pagamento via boleto bancário'),
-('Cheque', 'Pagamento via cheque (sujeito a aprovação)'),
-('Voucher', 'Pagamento via voucher ou cupom'),
-('Débito Automático', 'Pagamento programado para débito em conta'),
-('Criptomoeda', 'Pagamento via criptomoedas (ex: Bitcoin, Ethereum)');
 
 INSERT INTO Vendas (data_ven, valor_total_ven, id_tipo_pagamento_fk, id_reserva_fk, id_funcionario_fk) VALUES
 ('2025-07-10 10:30:00', 25.00, 2, NULL, 1),
