@@ -1,305 +1,305 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\celes\\Documents\\HotelSunset\\",
+  "WorkspaceRootPath": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\reservasconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\reservasconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|c:\\users\\celes\\documents\\hotelsunset\\hotelsunset\\views\\reservasconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\reservasconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\reservascadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\reservascadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\quartosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\quartosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\quartosconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\quartosconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\quartosconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|c:\\users\\celes\\documents\\hotelsunset\\hotelsunset\\dao\\reservasdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\reservasdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\reservasconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\reservasconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\reservaslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\reservaslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|c:\\users\\celes\\documents\\github\\hotelsunsetsis\\hotelsunset\\views\\reservasconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\reservasconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\models\\quartos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\quartos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\models\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|c:\\users\\celes\\documents\\hotelsunset\\hotelsunset\\views\\reservaslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\reservaslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\quartoslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\quartoslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\servicoscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\servicoscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|c:\\users\\celes\\documents\\hotelsunset\\hotelsunset\\views\\reservascadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\reservascadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\quartoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\quartoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\models\\hospedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\hospedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\models\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\dao\\hospedesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\hospedesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|c:\\users\\celes\\documents\\hotelsunset\\hotelsunset\\dao\\tipospagamentodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\tipospagamentodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\quartoscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\quartoscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\quartoscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\dao\\tipoquartodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\tipoquartodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\quartoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\quartoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|c:\\users\\celes\\documents\\hotelsunset\\hotelsunset\\models\\tipopagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\tipopagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\quartosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\quartosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\dao\\quartodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\quartodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\quartoslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\quartoslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\estoqueconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\estoqueconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\models\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\models\\tiposquarto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\tiposquarto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\models\\servicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\servicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\models\\despesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\despesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\dao\\servicosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\servicosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\dao\\produtosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\produtosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\dao\\funcionariosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\funcionariosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\dao\\despesadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\despesadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\dao\\estoquedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\estoquedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\estoquelistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\estoquelistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\estoquelistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\estoquelistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\estoqueconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\estoqueconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\quartoslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\quartoslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\quartoslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\tiposquartosconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\reservascadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\reservascadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\dao\\reservasdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\reservasdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\reservaslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\reservaslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\models\\quartos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\quartos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\models\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\reservaslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\reservaslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\servicoscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\servicoscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\reservascadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\reservascadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\models\\hospedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\hospedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\models\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\dao\\hospedesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\hospedesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\dao\\tipospagamentodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\tipospagamentodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\dao\\tipoquartodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\tipoquartodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\models\\tipopagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\tipopagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\dao\\quartodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\quartodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\estoqueconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\estoqueconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\models\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\models\\tiposquarto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\tiposquarto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\models\\servicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\servicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\models\\despesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\models\\despesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\dao\\servicosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\servicosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\dao\\produtosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\produtosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\dao\\funcionariosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\funcionariosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\dao\\despesadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\despesadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\dao\\estoquedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\dao\\estoquedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\estoquelistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\estoquelistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\estoquelistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\estoquelistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\estoqueconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\estoqueconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\tiposquartosconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\tiposquartosconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\tiposquartosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\tiposquartosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\tiposquartosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\tiposquartocadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\tiposquartocadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\tiposquartocadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\hospedeslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\hospedeslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\hospedeslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\hospedesconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\hospedesconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\hospedesconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\servicoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\servicoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\servicoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\hospedescadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\hospedescadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\hospedescadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\produtoscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\produtoscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\produtoscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\produtoslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\produtoslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\produtoslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\produtosconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\produtosconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\produtosconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\servicosconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\servicosconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\servicosconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\servicosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\servicosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\servicosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\servicoslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\servicoslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\servicoslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\servicoslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\servicoslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\servicoslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\tiposquartolistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\tiposquartolistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\tiposquartolistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\tiposquartolistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\tiposquartolistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\tiposquartolistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\produtoslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\produtoslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\produtoslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\tiposquartocadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\tiposquartocadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\tiposquartocadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\despesacadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\despesacadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\despesacadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\despesalistar.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\despesalistar.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\despesalistar.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\produtoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\produtoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\produtoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\funcionarioslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\funcionarioslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\funcionarioslistar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\funcionarioslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\funcionarioslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\funcionarioslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\produtosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\produtosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\produtosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\funcionarioconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\funcionarioconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\funcionarioconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\funcionarioconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\funcionarioconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\funcionarioconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\hospedeslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\hospedeslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\hospedeslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\funcionarioscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\funcionarioscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\funcionarioscadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\despesaconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\despesaconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\despesaconsultar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\hospedescadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\hospedescadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\hospedescadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\hospedesconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\hospedesconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\hospedesconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\funcionarioscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\funcionarioscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\funcionarioscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\despesalistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\despesalistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\despesalistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\despesaconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\despesaconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\despesaconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\despesacadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\despesacadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\despesacadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -309,47 +309,47 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\celes\\Documents\\GitHub\\CacauShowSoft\\Telas\\ClienteCadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\pagamentoslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\pagamentoslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\pagamentoslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\vendaslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\vendaslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\vendaslistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\caixalistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\caixalistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\caixalistar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\ultilitarios\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\ultilitarios\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\ultilitarios\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\caixacadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\caixacadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\caixacadastrar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\caixacadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\caixacadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\caixacadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\vendasconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\vendasconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\vendasconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\vendascadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\vendascadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\vendascadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\pagamentosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\pagamentosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\pagamentosconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\caixaconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\caixaconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\caixaconsultar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\HotelSunset\\hotelsunset\\views\\pagamentoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\hotelsunset\\views\\pagamentoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F087B7D-D82E-443E-B9DC-168144D4C0C4}|HotelSunset\\HotelSunset.csproj|solutionrelative:hotelsunset\\views\\pagamentoscadastrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -360,28 +360,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReservasConsultar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ReservasConsultar.xaml.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Views\\ReservasConsultar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ReservasConsultar.xaml.cs",
-              "RelativeToolTip": "HotelSunset\\Views\\ReservasConsultar.xaml.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAgwEMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "QuartosCadastrar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\QuartosCadastrar.xaml.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Views\\QuartosCadastrar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\QuartosCadastrar.xaml.cs",
+              "RelativeToolTip": "HotelSunset\\Views\\QuartosCadastrar.xaml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwD0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T03:24:01.85Z",
+              "WhenOpened": "2025-07-17T07:52:32.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "QuartosConsultar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\QuartosConsultar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\QuartosConsultar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\QuartosConsultar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\QuartosConsultar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\QuartosConsultar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\QuartosConsultar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T06:59:48.575Z",
@@ -389,23 +389,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReservasCadastrar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ReservasCadastrar.xaml",
-              "RelativeDocumentMoniker": "HotelSunset\\Views\\ReservasCadastrar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ReservasCadastrar.xaml",
-              "RelativeToolTip": "HotelSunset\\Views\\ReservasCadastrar.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T05:07:36.96Z",
+              "DocumentIndex": 0,
+              "Title": "QuartosConsultar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\QuartosConsultar.xaml.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Views\\QuartosConsultar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\QuartosConsultar.xaml.cs",
+              "RelativeToolTip": "HotelSunset\\Views\\QuartosConsultar.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwDgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T01:42:25.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ReservasConsultar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ReservasConsultar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ReservasConsultar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\ReservasConsultar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ReservasConsultar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ReservasConsultar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\ReservasConsultar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T07:01:37.209Z",
@@ -413,179 +414,24 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservasConsultar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ReservasConsultar.xaml.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Views\\ReservasConsultar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ReservasConsultar.xaml.cs",
+              "RelativeToolTip": "HotelSunset\\Views\\ReservasConsultar.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwDsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T03:24:01.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "QuartosConsultar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\QuartosConsultar.xaml.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Views\\QuartosConsultar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\QuartosConsultar.xaml.cs",
-              "RelativeToolTip": "HotelSunset\\Views\\QuartosConsultar.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA1wBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:42:25.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReservasDAO.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\ReservasDAO.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\DAO\\ReservasDAO.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\ReservasDAO.cs",
-              "RelativeToolTip": "HotelSunset\\DAO\\ReservasDAO.cs",
-              "ViewState": "AgIAANUAAAAAAAAAAAAuwO0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T13:50:04.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Quartos.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Quartos.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Models\\Quartos.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Quartos.cs",
-              "RelativeToolTip": "HotelSunset\\Models\\Quartos.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T05:48:27.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Reservas.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Reservas.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Models\\Reservas.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Reservas.cs",
-              "RelativeToolTip": "HotelSunset\\Models\\Reservas.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T05:38:19.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReservasListar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ReservasListar.xaml",
-              "RelativeDocumentMoniker": "HotelSunset\\Views\\ReservasListar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ReservasListar.xaml",
-              "RelativeToolTip": "HotelSunset\\Views\\ReservasListar.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T04:41:44.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\MainWindow.xaml.cs",
-              "RelativeToolTip": "HotelSunset\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAWwCAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T14:06:38.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReservasListar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ReservasListar.xaml.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Views\\ReservasListar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ReservasListar.xaml.cs",
-              "RelativeToolTip": "HotelSunset\\Views\\ReservasListar.xaml.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAIAywEUAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T04:02:59.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ServicosCadastrar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ServicosCadastrar.xaml.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Views\\ServicosCadastrar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ServicosCadastrar.xaml.cs",
-              "RelativeToolTip": "HotelSunset\\Views\\ServicosCadastrar.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAqwDYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T00:54:16.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Views\\ReservasCadastrar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ReservasCadastrar.xaml.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Views\\ReservasCadastrar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ReservasCadastrar.xaml.cs",
-              "RelativeToolTip": "HotelSunset\\Views\\ReservasCadastrar.xaml.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAuwBwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T02:37:58.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Hospedes.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Hospedes.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Models\\Hospedes.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Hospedes.cs",
-              "RelativeToolTip": "HotelSunset\\Models\\Hospedes.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T05:37:47.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Produtos.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Produtos.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Models\\Produtos.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Produtos.cs",
-              "RelativeToolTip": "HotelSunset\\Models\\Produtos.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:03:29.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "QuartosListar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\QuartosListar.xaml.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Views\\QuartosListar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\QuartosListar.xaml.cs",
-              "RelativeToolTip": "HotelSunset\\Views\\QuartosListar.xaml.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAwGcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:51:47.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HospedesDAO.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\HospedesDAO.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\DAO\\HospedesDAO.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\HospedesDAO.cs",
-              "RelativeToolTip": "HotelSunset\\DAO\\HospedesDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T15:29:50.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "QuartosCadastrar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\QuartosCadastrar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\QuartosCadastrar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\QuartosCadastrar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\QuartosCadastrar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\QuartosCadastrar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\QuartosCadastrar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T04:02:09.963Z",
@@ -593,124 +439,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TiposPagamentoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\TiposPagamentoDAO.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\DAO\\TiposPagamentoDAO.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\TiposPagamentoDAO.cs",
-              "RelativeToolTip": "HotelSunset\\DAO\\TiposPagamentoDAO.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwB0AAAA5AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "QuartosListar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\QuartosListar.xaml.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Views\\QuartosListar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\QuartosListar.xaml.cs",
+              "RelativeToolTip": "HotelSunset\\Views\\QuartosListar.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T02:59:07.165Z",
+              "WhenOpened": "2025-07-18T01:51:47.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "QuartosCadastrar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\QuartosCadastrar.xaml.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Views\\QuartosCadastrar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\QuartosCadastrar.xaml.cs",
-              "RelativeToolTip": "HotelSunset\\Views\\QuartosCadastrar.xaml.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAuwHcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T07:52:32.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "HotelSunset\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\MainWindow.xaml",
-              "RelativeToolTip": "HotelSunset\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T05:48:58.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "TipoQuartoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\TipoQuartoDAO.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\DAO\\TipoQuartoDAO.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\TipoQuartoDAO.cs",
-              "RelativeToolTip": "HotelSunset\\DAO\\TipoQuartoDAO.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAswGIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T00:10:30.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TipoPagamento.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\TipoPagamento.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Models\\TipoPagamento.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\TipoPagamento.cs",
-              "RelativeToolTip": "HotelSunset\\Models\\TipoPagamento.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T02:50:12.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "QuartoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\QuartoDAO.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\DAO\\QuartoDAO.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\QuartoDAO.cs",
-              "RelativeToolTip": "HotelSunset\\DAO\\QuartoDAO.cs",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAuwMIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:11:40.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Vendas.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Vendas.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Models\\Vendas.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Vendas.cs",
-              "RelativeToolTip": "HotelSunset\\Models\\Vendas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T05:58:28.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "TiposQuarto.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\TiposQuarto.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Models\\TiposQuarto.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\TiposQuarto.cs",
-              "RelativeToolTip": "HotelSunset\\Models\\TiposQuarto.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T05:51:55.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Servicos.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Servicos.cs",
-              "RelativeDocumentMoniker": "HotelSunset\\Models\\Servicos.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Servicos.cs",
-              "RelativeToolTip": "HotelSunset\\Models\\Servicos.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T05:56:48.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 7,
               "Title": "QuartosListar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\QuartosListar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\QuartosListar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\QuartosListar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\QuartosListar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\QuartosListar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\QuartosListar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T04:41:26.454Z",
@@ -718,11 +464,248 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 16,
+              "Title": "Views\\ReservasCadastrar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ReservasCadastrar.xaml.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Views\\ReservasCadastrar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ReservasCadastrar.xaml.cs",
+              "RelativeToolTip": "HotelSunset\\Views\\ReservasCadastrar.xaml.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAuwBwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T02:37:58.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Hospedes.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Hospedes.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Models\\Hospedes.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Hospedes.cs",
+              "RelativeToolTip": "HotelSunset\\Models\\Hospedes.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T05:37:47.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Produtos.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Produtos.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Models\\Produtos.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Produtos.cs",
+              "RelativeToolTip": "HotelSunset\\Models\\Produtos.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T06:03:29.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HospedesDAO.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\HospedesDAO.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\DAO\\HospedesDAO.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\HospedesDAO.cs",
+              "RelativeToolTip": "HotelSunset\\DAO\\HospedesDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T15:29:50.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReservasCadastrar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ReservasCadastrar.xaml",
+              "RelativeDocumentMoniker": "HotelSunset\\Views\\ReservasCadastrar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ReservasCadastrar.xaml",
+              "RelativeToolTip": "HotelSunset\\Views\\ReservasCadastrar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-17T05:07:36.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServicosCadastrar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ServicosCadastrar.xaml.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Views\\ServicosCadastrar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ServicosCadastrar.xaml.cs",
+              "RelativeToolTip": "HotelSunset\\Views\\ServicosCadastrar.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwDYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T00:54:16.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TipoPagamento.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\TipoPagamento.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Models\\TipoPagamento.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\TipoPagamento.cs",
+              "RelativeToolTip": "HotelSunset\\Models\\TipoPagamento.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T02:50:12.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "QuartoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\QuartoDAO.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\DAO\\QuartoDAO.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\QuartoDAO.cs",
+              "RelativeToolTip": "HotelSunset\\DAO\\QuartoDAO.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAuwMIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T01:11:40.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Vendas.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Vendas.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Models\\Vendas.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Vendas.cs",
+              "RelativeToolTip": "HotelSunset\\Models\\Vendas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T05:58:28.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TiposQuarto.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\TiposQuarto.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Models\\TiposQuarto.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\TiposQuarto.cs",
+              "RelativeToolTip": "HotelSunset\\Models\\TiposQuarto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T05:51:55.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Servicos.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Servicos.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Models\\Servicos.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Servicos.cs",
+              "RelativeToolTip": "HotelSunset\\Models\\Servicos.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T05:56:48.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservasDAO.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\ReservasDAO.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\DAO\\ReservasDAO.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\ReservasDAO.cs",
+              "RelativeToolTip": "HotelSunset\\DAO\\ReservasDAO.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAuwO0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:50:04.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Quartos.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Quartos.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Models\\Quartos.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Quartos.cs",
+              "RelativeToolTip": "HotelSunset\\Models\\Quartos.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T05:48:27.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Reservas.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Reservas.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Models\\Reservas.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Reservas.cs",
+              "RelativeToolTip": "HotelSunset\\Models\\Reservas.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T05:38:19.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservasListar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ReservasListar.xaml",
+              "RelativeDocumentMoniker": "HotelSunset\\Views\\ReservasListar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ReservasListar.xaml",
+              "RelativeToolTip": "HotelSunset\\Views\\ReservasListar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-17T04:41:44.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\MainWindow.xaml.cs",
+              "RelativeToolTip": "HotelSunset\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAWwCAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T14:06:38.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReservasListar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ReservasListar.xaml.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\Views\\ReservasListar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ReservasListar.xaml.cs",
+              "RelativeToolTip": "HotelSunset\\Views\\ReservasListar.xaml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAIAywEUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T04:02:59.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TiposPagamentoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\TiposPagamentoDAO.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\DAO\\TiposPagamentoDAO.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\TiposPagamentoDAO.cs",
+              "RelativeToolTip": "HotelSunset\\DAO\\TiposPagamentoDAO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwB0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T02:59:07.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HotelSunset\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\MainWindow.xaml",
+              "RelativeToolTip": "HotelSunset\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-17T05:48:58.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TipoQuartoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\TipoQuartoDAO.cs",
+              "RelativeDocumentMoniker": "HotelSunset\\DAO\\TipoQuartoDAO.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\TipoQuartoDAO.cs",
+              "RelativeToolTip": "HotelSunset\\DAO\\TipoQuartoDAO.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAswGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T00:10:30.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "FuncionariosDAO.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\FuncionariosDAO.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\FuncionariosDAO.cs",
               "RelativeDocumentMoniker": "HotelSunset\\DAO\\FuncionariosDAO.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\FuncionariosDAO.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\FuncionariosDAO.cs",
               "RelativeToolTip": "HotelSunset\\DAO\\FuncionariosDAO.cs",
               "ViewState": "AgIAAMQAAAAAAAAAAAAcwJ0AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -730,11 +713,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "DespesaDAO.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\DespesaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\DespesaDAO.cs",
               "RelativeDocumentMoniker": "HotelSunset\\DAO\\DespesaDAO.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\DespesaDAO.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\DespesaDAO.cs",
               "RelativeToolTip": "HotelSunset\\DAO\\DespesaDAO.cs",
               "ViewState": "AgIAAIsAAAAAAAAAAAAcwCwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -742,11 +725,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "EstoqueDAO.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\EstoqueDAO.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\EstoqueDAO.cs",
               "RelativeDocumentMoniker": "HotelSunset\\DAO\\EstoqueDAO.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\EstoqueDAO.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\EstoqueDAO.cs",
               "RelativeToolTip": "HotelSunset\\DAO\\EstoqueDAO.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAnwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -754,11 +737,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "EstoqueConsultar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\EstoqueConsultar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\EstoqueConsultar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\EstoqueConsultar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\EstoqueConsultar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\EstoqueConsultar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\EstoqueConsultar.xaml.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAAJ8AAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -766,11 +749,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Funcionarios.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Funcionarios.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Funcionarios.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Models\\Funcionarios.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Funcionarios.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Funcionarios.cs",
               "RelativeToolTip": "HotelSunset\\Models\\Funcionarios.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAqwBgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -778,11 +761,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Estoque.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Estoque.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Estoque.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Models\\Estoque.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Estoque.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Estoque.cs",
               "RelativeToolTip": "HotelSunset\\Models\\Estoque.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAIA0wBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -790,11 +773,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Despesas.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Despesas.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Despesas.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Models\\Despesas.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Models\\Despesas.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Models\\Despesas.cs",
               "RelativeToolTip": "HotelSunset\\Models\\Despesas.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -802,11 +785,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ServicosDAO.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\ServicosDAO.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\ServicosDAO.cs",
               "RelativeDocumentMoniker": "HotelSunset\\DAO\\ServicosDAO.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\ServicosDAO.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\ServicosDAO.cs",
               "RelativeToolTip": "HotelSunset\\DAO\\ServicosDAO.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAwwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -814,11 +797,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "ProdutosDAO.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\ProdutosDAO.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\ProdutosDAO.cs",
               "RelativeDocumentMoniker": "HotelSunset\\DAO\\ProdutosDAO.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\DAO\\ProdutosDAO.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\DAO\\ProdutosDAO.cs",
               "RelativeToolTip": "HotelSunset\\DAO\\ProdutosDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -828,21 +811,20 @@
               "$type": "Document",
               "DocumentIndex": 77,
               "Title": "PagamentosListar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\PagamentosListar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\PagamentosListar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\PagamentosListar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\PagamentosListar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\PagamentosListar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\PagamentosListar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T04:36:33.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:36:33.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "EstoqueListar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\EstoqueListar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\EstoqueListar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\EstoqueListar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\EstoqueListar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\EstoqueListar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\EstoqueListar.xaml.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -850,23 +832,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "EstoqueListar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\EstoqueListar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\EstoqueListar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\EstoqueListar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\EstoqueListar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\EstoqueListar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\EstoqueListar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T04:32:11.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:32:11.271Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
               "Title": "TiposQuartosConsultar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\TiposQuartosConsultar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\TiposQuartosConsultar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\TiposQuartosConsultar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\TiposQuartosConsultar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\TiposQuartosConsultar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\TiposQuartosConsultar.xaml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAiwBgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -876,9 +857,9 @@
               "$type": "Document",
               "DocumentIndex": 80,
               "Title": "Conexao.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Ultilitarios\\Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Ultilitarios\\Conexao.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Ultilitarios\\Conexao.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Ultilitarios\\Conexao.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Ultilitarios\\Conexao.cs",
               "RelativeToolTip": "HotelSunset\\Ultilitarios\\Conexao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -886,35 +867,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "EstoqueConsultar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\EstoqueConsultar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\EstoqueConsultar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\EstoqueConsultar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\EstoqueConsultar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\EstoqueConsultar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\EstoqueConsultar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T06:35:22.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T06:35:22.389Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 72,
               "Title": "DespesaListar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\DespesaListar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\DespesaListar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\DespesaListar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\DespesaListar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\DespesaListar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\DespesaListar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T04:29:15.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:29:15.006Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 81,
               "Title": "Views\\CaixaCadastrar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\CaixaCadastrar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\CaixaCadastrar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\CaixaCadastrar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\CaixaCadastrar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\CaixaCadastrar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\CaixaCadastrar.xaml.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAEwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -925,9 +904,9 @@
               "DocumentIndex": 76,
               "Title": "ClienteCadastrar.xaml.cs",
               "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\CacauShowSoft\\Telas\\ClienteCadastrar.xaml.cs",
-              "RelativeDocumentMoniker": "..\\GitHub\\CacauShowSoft\\Telas\\ClienteCadastrar.xaml.cs",
+              "RelativeDocumentMoniker": "..\\CacauShowSoft\\Telas\\ClienteCadastrar.xaml.cs",
               "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\CacauShowSoft\\Telas\\ClienteCadastrar.xaml.cs",
-              "RelativeToolTip": "..\\GitHub\\CacauShowSoft\\Telas\\ClienteCadastrar.xaml.cs",
+              "RelativeToolTip": "..\\CacauShowSoft\\Telas\\ClienteCadastrar.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T14:42:56.031Z"
@@ -936,21 +915,20 @@
               "$type": "Document",
               "DocumentIndex": 65,
               "Title": "FuncionarioConsultar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\FuncionarioConsultar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\FuncionarioConsultar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\FuncionarioConsultar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\FuncionarioConsultar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\FuncionarioConsultar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\FuncionarioConsultar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T06:19:56.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T06:19:56.735Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 54,
               "Title": "TiposQuartoListar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\TiposQuartoListar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\TiposQuartoListar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\TiposQuartoListar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\TiposQuartoListar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\TiposQuartoListar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\TiposQuartoListar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T04:42:34.971Z"
@@ -959,21 +937,20 @@
               "$type": "Document",
               "DocumentIndex": 86,
               "Title": "CaixaConsultar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\CaixaConsultar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\CaixaConsultar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\CaixaConsultar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\CaixaConsultar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\CaixaConsultar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\CaixaConsultar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T06:24:39.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T06:24:39.02Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 58,
               "Title": "DespesaCadastrar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\DespesaCadastrar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\DespesaCadastrar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\DespesaCadastrar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\DespesaCadastrar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\DespesaCadastrar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\DespesaCadastrar.xaml.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAAAAwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -983,9 +960,9 @@
               "$type": "Document",
               "DocumentIndex": 59,
               "Title": "DespesaListar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\DespesaListar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\DespesaListar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\DespesaListar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\DespesaListar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\DespesaListar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\DespesaListar.xaml.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAmwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -995,9 +972,9 @@
               "$type": "Document",
               "DocumentIndex": 64,
               "Title": "FuncionarioConsultar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\FuncionarioConsultar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\FuncionarioConsultar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\FuncionarioConsultar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\FuncionarioConsultar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\FuncionarioConsultar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\FuncionarioConsultar.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1007,21 +984,20 @@
               "$type": "Document",
               "DocumentIndex": 56,
               "Title": "ProdutosListar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ProdutosListar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ProdutosListar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\ProdutosListar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ProdutosListar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ProdutosListar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\ProdutosListar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T04:41:08.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:41:08.934Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 57,
               "Title": "TiposQuartoCadastrar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\TiposQuartoCadastrar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\TiposQuartoCadastrar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\TiposQuartoCadastrar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\TiposQuartoCadastrar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\TiposQuartoCadastrar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\TiposQuartoCadastrar.xaml.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAEUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1031,9 +1007,9 @@
               "$type": "Document",
               "DocumentIndex": 42,
               "Title": "TiposQuartoCadastrar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\TiposQuartoCadastrar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\TiposQuartoCadastrar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\TiposQuartoCadastrar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\TiposQuartoCadastrar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\TiposQuartoCadastrar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\TiposQuartoCadastrar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T05:10:53.092Z"
@@ -1042,9 +1018,9 @@
               "$type": "Document",
               "DocumentIndex": 41,
               "Title": "TiposQuartosConsultar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\TiposQuartosConsultar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\TiposQuartosConsultar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\TiposQuartosConsultar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\TiposQuartosConsultar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\TiposQuartosConsultar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\TiposQuartosConsultar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T07:16:13.29Z"
@@ -1053,21 +1029,20 @@
               "$type": "Document",
               "DocumentIndex": 66,
               "Title": "HospedesListar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\HospedesListar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\HospedesListar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\HospedesListar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\HospedesListar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\HospedesListar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\HospedesListar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T04:33:42.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:33:42.505Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 45,
               "Title": "ServicosCadastrar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ServicosCadastrar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ServicosCadastrar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\ServicosCadastrar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ServicosCadastrar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ServicosCadastrar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\ServicosCadastrar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T05:09:13.317Z"
@@ -1076,21 +1051,20 @@
               "$type": "Document",
               "DocumentIndex": 82,
               "Title": "CaixaCadastrar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\CaixaCadastrar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\CaixaCadastrar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\CaixaCadastrar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\CaixaCadastrar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\CaixaCadastrar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\CaixaCadastrar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T04:01:45.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:01:45.885Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 43,
               "Title": "HospedesListar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\HospedesListar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\HospedesListar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\HospedesListar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\HospedesListar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\HospedesListar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\HospedesListar.xaml.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowF4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1100,9 +1074,9 @@
               "$type": "Document",
               "DocumentIndex": 44,
               "Title": "HospedesConsultar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\HospedesConsultar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\HospedesConsultar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\HospedesConsultar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\HospedesConsultar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\HospedesConsultar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\HospedesConsultar.xaml.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAkwC0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1112,21 +1086,20 @@
               "$type": "Document",
               "DocumentIndex": 60,
               "Title": "ProdutosCadastrar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ProdutosCadastrar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ProdutosCadastrar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\ProdutosCadastrar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ProdutosCadastrar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ProdutosCadastrar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\ProdutosCadastrar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T05:03:15.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T05:03:15.725Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 61,
               "Title": "FuncionariosListar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\FuncionariosListar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\FuncionariosListar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\FuncionariosListar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\FuncionariosListar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\FuncionariosListar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\FuncionariosListar.xaml.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAiwGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1136,21 +1109,20 @@
               "$type": "Document",
               "DocumentIndex": 85,
               "Title": "PagamentosConsultar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\PagamentosConsultar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\PagamentosConsultar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\PagamentosConsultar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\PagamentosConsultar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\PagamentosConsultar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\PagamentosConsultar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T06:37:36.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T06:37:36.931Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "HospedesCadastrar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\HospedesCadastrar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\HospedesCadastrar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\HospedesCadastrar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\HospedesCadastrar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\HospedesCadastrar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\HospedesCadastrar.xaml.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAADwv1kAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1160,9 +1132,9 @@
               "$type": "Document",
               "DocumentIndex": 47,
               "Title": "ProdutosCadastrar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ProdutosCadastrar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ProdutosCadastrar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\ProdutosCadastrar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ProdutosCadastrar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ProdutosCadastrar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\ProdutosCadastrar.xaml.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAqwDQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1172,9 +1144,9 @@
               "$type": "Document",
               "DocumentIndex": 48,
               "Title": "ProdutosListar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ProdutosListar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ProdutosListar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\ProdutosListar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ProdutosListar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ProdutosListar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\ProdutosListar.xaml.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAqwCAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1184,9 +1156,9 @@
               "$type": "Document",
               "DocumentIndex": 49,
               "Title": "ProdutosConsultar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ProdutosConsultar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ProdutosConsultar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\ProdutosConsultar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ProdutosConsultar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ProdutosConsultar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\ProdutosConsultar.xaml.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAqwG4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1196,9 +1168,9 @@
               "$type": "Document",
               "DocumentIndex": 53,
               "Title": "ServicosListar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ServicosListar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ServicosListar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\ServicosListar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ServicosListar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ServicosListar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\ServicosListar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T04:42:05.393Z"
@@ -1207,9 +1179,9 @@
               "$type": "Document",
               "DocumentIndex": 50,
               "Title": "Views\\ServicosConsultar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ServicosConsultar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ServicosConsultar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\ServicosConsultar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ServicosConsultar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ServicosConsultar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\ServicosConsultar.xaml.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAD4v4kAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1219,9 +1191,9 @@
               "$type": "Document",
               "DocumentIndex": 84,
               "Title": "VendasCadastrar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\VendasCadastrar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\VendasCadastrar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\VendasCadastrar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\VendasCadastrar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\VendasCadastrar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\VendasCadastrar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T05:12:22.457Z"
@@ -1230,9 +1202,9 @@
               "$type": "Document",
               "DocumentIndex": 51,
               "Title": "ServicosConsultar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ServicosConsultar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ServicosConsultar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\ServicosConsultar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ServicosConsultar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ServicosConsultar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\ServicosConsultar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T07:04:04.523Z"
@@ -1241,9 +1213,9 @@
               "$type": "Document",
               "DocumentIndex": 52,
               "Title": "Views\\ServicosListar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ServicosListar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ServicosListar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\ServicosListar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ServicosListar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ServicosListar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\ServicosListar.xaml.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAQwDcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1253,9 +1225,9 @@
               "$type": "Document",
               "DocumentIndex": 55,
               "Title": "TiposQuartoListar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\TiposQuartoListar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\TiposQuartoListar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\TiposQuartoListar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\TiposQuartoListar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\TiposQuartoListar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\TiposQuartoListar.xaml.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAiwFYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1265,9 +1237,9 @@
               "$type": "Document",
               "DocumentIndex": 83,
               "Title": "VendasConsultar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\VendasConsultar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\VendasConsultar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\VendasConsultar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\VendasConsultar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\VendasConsultar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\VendasConsultar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T07:09:57.244Z"
@@ -1276,33 +1248,31 @@
               "$type": "Document",
               "DocumentIndex": 62,
               "Title": "FuncionariosListar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\FuncionariosListar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\FuncionariosListar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\FuncionariosListar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\FuncionariosListar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\FuncionariosListar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\FuncionariosListar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T04:34:13.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:34:13.133Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 63,
               "Title": "ProdutosConsultar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ProdutosConsultar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ProdutosConsultar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\ProdutosConsultar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\ProdutosConsultar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\ProdutosConsultar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\ProdutosConsultar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T06:56:12.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T06:56:12.799Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 67,
               "Title": "FuncionariosCadastrar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\FuncionariosCadastrar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\FuncionariosCadastrar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\FuncionariosCadastrar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\FuncionariosCadastrar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\FuncionariosCadastrar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\FuncionariosCadastrar.xaml.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1312,9 +1282,9 @@
               "$type": "Document",
               "DocumentIndex": 68,
               "Title": "DespesaConsultar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\DespesaConsultar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\DespesaConsultar.xaml.cs",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\DespesaConsultar.xaml.cs",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\DespesaConsultar.xaml.cs",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\DespesaConsultar.xaml.cs",
               "RelativeToolTip": "HotelSunset\\Views\\DespesaConsultar.xaml.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAkwBoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1324,58 +1294,54 @@
               "$type": "Document",
               "DocumentIndex": 69,
               "Title": "HospedesCadastrar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\HospedesCadastrar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\HospedesCadastrar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\HospedesCadastrar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\HospedesCadastrar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\HospedesCadastrar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\HospedesCadastrar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T05:00:56.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T05:00:56.931Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 87,
               "Title": "PagamentosCadastrar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\PagamentosCadastrar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\PagamentosCadastrar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\PagamentosCadastrar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\PagamentosCadastrar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\PagamentosCadastrar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\PagamentosCadastrar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T04:04:06.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:04:06.174Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 70,
               "Title": "HospedesConsultar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\HospedesConsultar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\HospedesConsultar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\HospedesConsultar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\HospedesConsultar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\HospedesConsultar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\HospedesConsultar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T06:14:54.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T06:14:54.621Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 71,
               "Title": "FuncionariosCadastrar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\FuncionariosCadastrar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\FuncionariosCadastrar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\FuncionariosCadastrar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\FuncionariosCadastrar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\FuncionariosCadastrar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\FuncionariosCadastrar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T04:59:27.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:59:27.703Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 75,
               "Title": "Conexao.cs",
               "DocumentMoniker": "C:\\Users\\celes\\Downloads\\CRUD-main\\CRUD-main\\Utilitarios\\Conexao.cs",
-              "RelativeDocumentMoniker": "..\\..\\Downloads\\CRUD-main\\CRUD-main\\Utilitarios\\Conexao.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\CRUD-main\\CRUD-main\\Utilitarios\\Conexao.cs",
               "ToolTip": "C:\\Users\\celes\\Downloads\\CRUD-main\\CRUD-main\\Utilitarios\\Conexao.cs",
-              "RelativeToolTip": "..\\..\\Downloads\\CRUD-main\\CRUD-main\\Utilitarios\\Conexao.cs",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\CRUD-main\\CRUD-main\\Utilitarios\\Conexao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T15:26:57.323Z"
@@ -1384,33 +1350,31 @@
               "$type": "Document",
               "DocumentIndex": 73,
               "Title": "DespesaConsultar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\DespesaConsultar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\DespesaConsultar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\DespesaConsultar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\DespesaConsultar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\DespesaConsultar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\DespesaConsultar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T06:28:26.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T06:28:26.612Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 74,
               "Title": "DespesaCadastrar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\DespesaCadastrar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\DespesaCadastrar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\DespesaCadastrar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\DespesaCadastrar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\DespesaCadastrar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\DespesaCadastrar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T04:02:14.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:02:14.401Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 78,
               "Title": "VendasListar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\VendasListar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\VendasListar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\VendasListar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\VendasListar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\VendasListar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\VendasListar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-17T04:44:04.328Z"
@@ -1419,13 +1383,12 @@
               "$type": "Document",
               "DocumentIndex": 79,
               "Title": "CaixaListar.xaml",
-              "DocumentMoniker": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\CaixaListar.xaml",
+              "DocumentMoniker": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\CaixaListar.xaml",
               "RelativeDocumentMoniker": "HotelSunset\\Views\\CaixaListar.xaml",
-              "ToolTip": "C:\\Users\\celes\\Documents\\HotelSunset\\HotelSunset\\Views\\CaixaListar.xaml",
+              "ToolTip": "C:\\Users\\celes\\Documents\\GitHub\\HotelSunsetSIS\\HotelSunset\\Views\\CaixaListar.xaml",
               "RelativeToolTip": "HotelSunset\\Views\\CaixaListar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T04:24:02.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:24:02.279Z"
             }
           ]
         }

@@ -52,8 +52,14 @@ namespace HotelSunset.Views
                     txtNumero.Text = quartoSelected.Numero;
                     txtAndar.Text = quartoSelected.Andar.ToString();
                     txtCapacidade.Text = quartoSelected.Capacidade.ToString();
-                    cbStatus.SelectedValue = quartoSelected.Status;
-
+                    foreach (ComboBoxItem item in cbStatus.Items)
+                    {
+                        if (item.Content.ToString() == quartoSelected.Status)
+                        {
+                            cbStatus.SelectedItem = item;
+                            break;
+                        }
+                    }
                     cbTiposQuarto.SelectedValue = quartoSelected.IdTipoQuarto;
 
                     SetFormEnabledState(false);
@@ -127,7 +133,7 @@ namespace HotelSunset.Views
                     MessageBox.Show("Informe um número válido para a capacidade.", "Erro", MessageBoxButton.OK, MessageBoxImage.Error);
                     return;
                 }
-
+              
                 if (cbTiposQuarto.SelectedValue == null)
                 {
                     MessageBox.Show("Selecione um tipo de quarto válido.", "Erro", MessageBoxButton.OK, MessageBoxImage.Error);
@@ -148,6 +154,11 @@ namespace HotelSunset.Views
                 if (string.IsNullOrWhiteSpace(quarto.Numero))
                 {
                     MessageBox.Show("Número do quarto é obrigatório.", "Erro", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+                if (cbStatus.SelectedItem == null || (cbStatus.SelectedItem as ComboBoxItem)?.Content.ToString() == string.Empty)
+                {
+                    MessageBox.Show("O campo Status é obrigatório. Selecione um status para o quarto.", "Erro", MessageBoxButton.OK, MessageBoxImage.Error);
                     return;
                 }
 
